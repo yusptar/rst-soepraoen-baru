@@ -1,0 +1,260 @@
+export const listSurvei = [
+  {
+    tahun: "2022 Triwulan I",
+    imageURL1 : "/assets/ikm/smile-t1.png",
+    imageURL2 : "/assets/ikm/smile-t1-konversi.png",
+    listIKM1: [
+      {
+        dimensiKepuasanPasien: "Persyaratan",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,26",
+          nilaiKonversi: "85,24",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Sistem Mekanisme dan Prosedur",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,01",
+          nilaiKonversi: "80,29",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Waktu Penyelesaian",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,10",
+          nilaiKonversi: "81,90",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Biaya/Tarif",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,08",
+          nilaiKonversi: "81,63",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Produk Spesifikasi Jenis Pelayanan",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,19",
+          nilaiKonversi: "83,88",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+    ],
+    listIKM2: [
+      {
+        dimensiKepuasanPasien: "Kompetensi Pelaksana",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,28",
+          nilaiKonversi: "85,63",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Perilaku Pelaksana",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,33",
+          nilaiKonversi: "86,52",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Sarana dan Prasarana",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,10",
+          nilaiKonversi: "81,91",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Penanganan Pengaduan, Saran dan Masukan",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,18",
+          nilaiKonversi: "83,68",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Indeks Kepuasan Pasien",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan I (1 Januari - 31 Maret)",
+          jumlahResponden: "1591",
+          nilaiIndeks: "4,17",
+          nilaiKonversi: "83,41",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+    ]
+  },
+  {
+    tahun: "2022 Triwulan II",
+    imageURL1 : "/assets/ikm/smile-t2.png",
+    imageURL2 : "/assets/ikm/smile-t2-konversi.png",
+    listIKM1: [
+      {
+        dimensiKepuasanPasien: "Persyaratan",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,21",
+          nilaiKonversi: "84,12",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Sistem Mekanisme dan Prosedur",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,06",
+          nilaiKonversi: "81,18",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Waktu Penyelesaian",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,16",
+          nilaiKonversi: "83,24",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Biaya/Tarif",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,09",
+          nilaiKonversi: "81,76",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Produk Spesifikasi Jenis Pelayanan",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,22",
+          nilaiKonversi: "84,31",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+    ],
+    listIKM2: [
+      {
+        dimensiKepuasanPasien: "Kompetensi Pelaksana",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,35",
+          nilaiKonversi: "87,06",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Perilaku Pelaksana",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,41",
+          nilaiKonversi: "88,24",
+          nilaiMutu: "A (SANGAT BAIK)",
+          kesimpulan: "SANGAT PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Sarana dan Prasarana",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,19",
+          nilaiKonversi: "83,82",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Penanganan Pengaduan, Saran dan Masukan",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,24",
+          nilaiKonversi: "84,71",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+      {
+        dimensiKepuasanPasien: "Indeks Kepuasan Pasien",
+        ikm: {
+          jumlahPertanyaan: "40",
+          pelaksanaan: "Triwulan II (1 April - 30 Juni)",
+          jumlahResponden: "17",
+          nilaiIndeks: "4,21",
+          nilaiKonversi: "84,27",
+          nilaiMutu: "B (BAIK)",
+          kesimpulan: "PUAS",
+        },
+      },
+    ]
+  }
+];

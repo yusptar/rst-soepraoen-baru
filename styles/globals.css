@@ -1,0 +1,104 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  height: 12rem;
+  padding: 1rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+ }
+
+ .youtubeContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.youtubeContainer iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.typography ol,ul {
+  color: #000;
+}
+
+.custom-owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.75rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  z-index: 30;
+  transition: background 0.3s ease;
+}
+
+.custom-owl-nav:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.custom-owl-nav.left-4,
+.custom-owl-nav.-left-4 {
+  left: -4rem; /* atau sesuaikan nilai agar lebih keluar */
+}
+
+.custom-owl-nav.right-4,
+.custom-owl-nav.-right-4 {
+  right: -4rem;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.owl-carousel .owl-nav button {
+  pointer-events: auto;
+  background: none;
+  border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
