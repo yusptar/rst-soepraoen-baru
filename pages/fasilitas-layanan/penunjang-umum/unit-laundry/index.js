@@ -14,6 +14,7 @@ import {
   MdOutlineIron,
   MdOutlineDeliveryDining,
 } from "react-icons/md";
+import { asset } from "../../../../helpers/asset";
 const listLayanan = [
   {
     nama: "Pengumpulan linen",
@@ -51,13 +52,13 @@ const listLayanan = [
 
 const listGallery = [
   {
-    image: "/assets/unit/laundry-1.jpg",
+    image: asset("/assets/unit/laundry-1.jpg"),
   },
   {
-    image: "/assets/unit/laundry-2.jpg",
+    image: asset("/assets/unit/laundry-2.jpg"),
   },
   {
-    image: "/assets/unit/laundry-3.jpg",
+    image: asset("/assets/unit/laundry-3.jpg"),
   },
 ];
 
@@ -87,7 +88,7 @@ export default function UnitLaundry() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/laundry-banner.png"}
+                src={asset("/assets/unit/laundry-banner.png")}
                 alt={"Unit Laundry"}
                 fill={true}
                 sizes={"100%"}

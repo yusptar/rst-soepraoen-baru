@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import BannerRS from "../../../../components/Banner/BannerRS";
 import { LuBadgeCheck } from "react-icons/lu";
+import { asset } from "../../../../helpers/asset";
 
 export default function IndikatorKinerja() {
   return (
@@ -42,7 +43,7 @@ export default function IndikatorKinerja() {
               {/* IMAGE */}
               <div className="relative p-4 md:p-6">
                 <Image
-                  src="/assets/ppid/maklumat-pelayanan-2.jpeg"
+                  src={asset("/assets/ppid/maklumat-pelayanan-2.jpeg")}
                   alt="Maklumat Pelayanan"
                   width={1600}
                   height={900}

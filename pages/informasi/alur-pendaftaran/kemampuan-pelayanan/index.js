@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import BannerRS from "../../../../components/Banner/BannerRS";
 import NavbarAlurPendaftaran from "../../../../components/Navbar/NavbarAlurPendaftaran";
+import { asset } from "../../../../helpers/asset";
 
 export default function ProfilRs() {
   return (
@@ -22,7 +23,7 @@ export default function ProfilRs() {
         <div className="w-full 2xl:w-4/5 md:flex md:flex-col md:justify-center md:items-center px-5 md:px-0">
           <div className="md:w-11/12 w-full">
             <Image
-              src="/assets/kemampuan-layanan-1.jpg"
+              src={asset("/assets/kemampuan-layanan-1.jpg")}
               width={1991}
               height={997}
               alt="Kemampuan Pelayanan Rumah Sakit"
@@ -31,7 +32,7 @@ export default function ProfilRs() {
           </div>
           <div className="md:w-11/12 w-full mt-2">
             <Image
-              src="/assets/kemampuan-layanan-2.jpg"
+              src={asset("/assets/kemampuan-layanan-2.jpg")}
               width={1991}
               height={997}
               alt="Kemampuan Pelayanan Rumah Sakit"

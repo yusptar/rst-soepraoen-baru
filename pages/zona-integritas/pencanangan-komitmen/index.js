@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import YouTube from "react-youtube";
+import { asset } from "../../../helpers/asset";
 
 const opts = {
   playerVars: {
@@ -34,21 +35,21 @@ export default function PencanganKomitmen() {
           </div>
           <div className="flex w-full justify-center mt-2">
                   <img
-                    src="/assets/dampak-pencanangan.jpeg"
+                    src={asset("/assets/dampak-pencanangan.jpeg")}
                     alt="image"
                     className=" w-full md:w-2/4"
                   />
           </div>
           <div className="flex w-full justify-center mt-2">
                   <img
-                    src="/assets/wbbm/pencanangan-komitmen-1.jpeg"
+                    src={asset("/assets/wbbm/pencanangan-komitmen-1.jpeg")}
                     alt="image"
                     className=" w-full md:w-3/4"
                   />
           </div>
             <div className="flex w-full justify-center mt-2">
                   <img
-                    src="/assets/wbbm/pencanangan-komitmen.jpeg"
+                    src={asset("/assets/wbbm/pencanangan-komitmen.jpeg")}
                     alt="image"
                     className=" w-full md:w-3/4"
                   />

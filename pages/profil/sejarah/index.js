@@ -16,6 +16,7 @@ import {
   LuUsers,
   LuAward,
 } from "react-icons/lu";
+import { asset } from "../../../helpers/asset";
 
 const listSejarahJabatan = [
   { nama: "dr. Soesman Soemosoesastro", pangkat: "Kolonel CDM/1709", tahun: "1950 - 1957" },
@@ -87,7 +88,7 @@ function Sejarah() {
           <div className="relative overflow-hidden rounded-[2.5rem] shadow-2xl border border-slate-200 mb-16">
             <div className="relative h-[420px] sm:h-[500px] md:h-[650px] lg:h-[920px] w-full">
               <Image
-                src={"/assets/bg-rssoepraoen-senja.png"}
+                src={asset("/assets/bg-rssoepraoen-senja.png")}
                 alt={"Rumah Sakit dr Soepraoen"}
                 fill
                 priority
@@ -196,7 +197,7 @@ function Sejarah() {
 
                 <div className="relative flex justify-center items-center h-[260px] sm:h-[320px] md:h-[420px] lg:h-[500px] bg-white/5 p-6 md:p-10 overflow-hidden">
                   <Image
-                    src={"/assets/dr-soepraoen.jpg"}
+                    src={asset("/assets/dr-soepraoen.jpg")}
                     alt={"dr.Soepraoen"}
                     width={420}
                     height={600}

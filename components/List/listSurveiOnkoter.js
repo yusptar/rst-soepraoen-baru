@@ -1,3 +1,4 @@
+import { asset } from "../../helpers/asset";
 export const listSurvei = [
   {
     tahun: "2024",
@@ -9,7 +10,7 @@ export const listSurvei = [
           jumlahSaran: "0",
           pelaksanaan: "Januari - Maret",
           // pelaksanaan: "Tahunan",
-          image:"/assets/onkoter/skm-tw-1.jpeg",
+          image:asset("/assets/onkoter/skm-tw-1.jpeg"),
           jumlahResponden: "254",
           jenisKelamin: [
             {
@@ -133,7 +134,7 @@ export const listSurvei = [
           pelaksanaan: "April - Juni",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "205",
-          image:"/assets/onkoter/skm-tw-2.jpeg",
+          image:asset("/assets/onkoter/skm-tw-2.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -256,7 +257,7 @@ export const listSurvei = [
           pelaksanaan: "Juli - September",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "240",
-          image:"/assets/onkoter/skm-tw-3.jpeg",
+          image:asset("/assets/onkoter/skm-tw-3.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -379,7 +380,7 @@ export const listSurvei = [
           pelaksanaan: "Oktober - Desember",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "240",
-          image:"/assets/onkoter/skm-tw-4.jpeg",
+          image:asset("/assets/onkoter/skm-tw-4.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",

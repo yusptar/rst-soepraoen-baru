@@ -1,6 +1,7 @@
 import { React } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "../../../../helpers/asset";
 
 const listSpesifikasi = [
   {
@@ -18,18 +19,18 @@ const listSpesifikasi = [
 ];
 
 function downloadImage(path) {
-  window.open(path, "_blank");
+  window.open(asset(path), "_blank");
 }
 
 const listGallery = [
   {
-    image: "/assets/unit/incinerator-1.jpg",
+    image: asset("/assets/unit/incinerator-1.jpg"),
   },
   {
-    image: "/assets/unit/incinerator-2.jpeg",
+    image: asset("/assets/unit/incinerator-2.jpeg"),
   },
   {
-    image: "/assets/unit/incinerator-3.jpeg",
+    image: asset("/assets/unit/incinerator-3.jpeg"),
   },
 ];
 
@@ -103,7 +104,7 @@ export default function UnitPengolahanLimbah() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/incinerator.png"}
+                src={asset("/assets/unit/incinerator.png")}
                 alt={"Unit Hemodialisa"}
                 fill={true}
                 priority={true}

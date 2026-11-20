@@ -6,6 +6,7 @@ import ModalNotificationPengaduan from "../../../components/Modal/NotificationPe
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { FcCollaboration, FcOnlineSupport, FcReadingEbook } from "react-icons/fc";
+import { asset } from "../../../helpers/asset";
 
 
 export default function Komplementer() {
@@ -36,7 +37,7 @@ export default function Komplementer() {
           </h1>
           <div className="justify-center mt-2">
           <Image
-            src="/assets/banner-komplementer.png"
+            src={asset("/assets/banner-komplementer.png")}
             alt="komplementer"
             width={1400}
             height={500}

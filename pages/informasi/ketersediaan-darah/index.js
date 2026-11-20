@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BannerRS from "../../../components/Banner/BannerRS";
+import { asset } from "../../../helpers/asset";
 
 export default function KetersediaanDarah() {
   return (
@@ -17,7 +18,7 @@ export default function KetersediaanDarah() {
           </h1>
           <div className="md:w-11/12 w-full">
             <Image
-              src="/assets/ketersediaan-darah.png"
+              src={asset("/assets/ketersediaan-darah.png")}
               width={1991}
               height={997}
               onClick={() => window.open("http://ayodonor.pmi.or.id/")}

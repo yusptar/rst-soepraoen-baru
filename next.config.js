@@ -3,6 +3,9 @@ const webpack = require("webpack");
 
 const isDev = process.env.NODE_ENV !== "production";
 
+// "/rst-soepraoen" di server Ubuntu, kosong ("") di Vercel / lokal
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const csp = `
   default-src 'self';
   script-src 'self' 'unsafe-inline' 'unsafe-eval';
@@ -31,6 +34,7 @@ const securityHeaders = [
 
 const nextConfig = {
   reactStrictMode: true,
+  basePath,
   images: {
     domains: [
       "images.unsplash.com",
@@ -38,6 +42,8 @@ const nextConfig = {
       "robohash.org",
       "rssoepraoen.com",
     ],
+    minimumCacheTTL: 2678400, // 31 hari
+    formats: ["image/webp"],
   },
   async headers() {
     return [
@@ -59,12 +65,4 @@ const nextConfig = {
   },
 };
 
-module.exports = {
-  images: {
-    minimumCacheTTL: 2678400,          // 31 hari, bukan 60 detik
-    formats: ['image/webp'],           // jangan tambah AVIF (jumlah varian jadi dobel)
-    deviceSizes: [640, 828, 1200, 1920], // default ada 8 ukuran, kurangi
-    imageSizes: [64, 128, 256],
-    // ...remotePatterns/domains yang sudah ada tetap dipakai
-  },
-};
+module.exports = nextConfig;

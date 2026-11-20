@@ -9,6 +9,7 @@ import {
   FaParking,
 } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import { asset } from "../../../helpers/asset";
 
 export default function Denah() {
   return (
@@ -142,7 +143,7 @@ export default function Denah() {
                 <div className="relative w-full overflow-hidden rounded-[1.5rem]">
 
                   <Image
-                    src="/assets/denah-rumkit-baru.png"
+                    src={asset("/assets/denah-rumkit-baru.png")}
                     alt="Denah Rumah Sakit"
                     width={1999}
                     height={1333}
@@ -177,7 +178,7 @@ export default function Denah() {
                 <div className="relative w-full overflow-hidden rounded-[1.5rem]">
 
                   <Image
-                    src="/assets/denah-fasum-baru.png"
+                    src={asset("/assets/denah-fasum-baru.png")}
                     alt="Denah Fasilitas Umum"
                     width={1999}
                     height={1333}

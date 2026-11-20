@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "../../../helpers/asset";
 
 const data = {
   title:
     "Wilayah Bebas dari Korupsi (WBK) dan Wilayah Birokrasi dan Bersih Melayani (WBBM)",
   deskripsi:
     "Proses pembangunan Zona Integritas merupakan tindak lanjut pencanangan yang telah dilakukan oleh pimpinan instansi pemerintah. Proses pembangunan Zona Integritas difokuskan pada penerapan program Manajemen Perubahan, Penataan Tatalaksana, Penataan Manajemen SDM, Penguatan Pengawasan, Penguatan Akuntabilitas Kinerja, dan Peningkatan Kualitas Pelayanan Publik yang bersifat konkrit. Dalam membangun Zona Integritas, pimpinan instansi pemerintah menetapkan satu atau beberapa unit kerja yang diusulkan sebagai WBK/WBBM. Pemilihan unit kerja yang diusulkan sebagai WBK/WBBM memperhatikan beberapa syarat yang telah ditetapkan, diantaranya: Dianggap sebagai unit yang penting/strategis dalam melakukan pelayanan publik;Mengelola sumber daya yang cukup besar, sertaMemiliki tingkat keberhasilan Reformasi Birokrasi yang cukup tinggi di unit tersebut. Proses pemilihan unit kerja yang berpotensi sebagai Zona Integritas dilakukan dengan membentuk kelompok kerja/tim untuk melakukan identifikasi terhadap unit kerja yang berpotensi sebagai unit kerja berpredikat menuju WBK/WBBM oleh pimpinan instansi. Setelah melakukan identifikasi, kelompok kerja/tim mengusulkan unit kerja kepada pimpinan instansi untuk ditetapkan sebagai calon unit kerja berpredikat Zona Integritas menuju WBK/WBBM. Selanjutnya dilakukan penilaian mandiri (self assessment) oleh TPI (Tim Penilai Internal) Tingkat Mabesad dan Mabes TNI. Setelah melakukan penilaian, TPI melaporkan kepada Pimpinan instansi tentang unit yang akan diusulkan ke Kementerian sebagai unit kerja berpredikat Menuju WBK/WBBM. Apabila unit kerja yang diusulkan memenuhi syarat sebagai Zona Integritas Menuju WBK/WBBM, maka langkah selanjutnya adalah penetapan. Setelah unit kerja yang diusulkan sebagai Zona Integritas menuju WBK/WBBM ditetapkan, maka hal yang selanjutnya dilakukan adalah menentukan komponen-komponen yang harus dibangun.Terdapat dua jenis komponen yang harus dibangun dalam unit kerja terpilih, yaitu komponen pengungkit dan komponen hasil. Di bawah ini adalah gambar yang menunjukkan hubungan masing-masing komponen dan indikator pembangun komponen.   Melalui model tersebut dapat diuraikan bahwa program Manajemen Perubahan, Penataan Tatalaksana, Penataan Manajemen SDM, Penguatan Akuntabilitas Kinerja, Penguatan Pengawasan, dan Peningkatan Kualitas Pelayanan Publik merupakan komponen pengungkit yang diharapkan dapat menghasilkan sasaran pemerintahan yang bersih dan bebas KKN serta komponen hasil yang berdampak pada peningkatan kualitas pelayanan publik. Penilaian terhadap setiap program dalam komponen pengungkit dan komponen hasil diukur melalui indikator-indikator yang dipandang mewakili program tersebut. Sehingga dengan menilai indikator tersebut diharapkan dapat memberikan gambaran pencapaian upaya yang berdampak pada pencapaian sasaran.",
-  image: "/assets/wbk-wbbm.png",
+  image: asset("/assets/wbk-wbbm.png"),
   komponen: [
     {
       jenis: "Komponen Pengungkit",
@@ -172,7 +173,7 @@ export default function WBKWBBM() {
               </p>
               <div className="w-full aspect-[1172/721] relative cursor-pointer mt-5">
                 <Image
-                  src={"/assets/wtrb2.png"}
+                  src={asset("/assets/wtrb2.png")}
                   alt={"WBK WBBM"}
                   fill={true}
                   sizes={"100%"}

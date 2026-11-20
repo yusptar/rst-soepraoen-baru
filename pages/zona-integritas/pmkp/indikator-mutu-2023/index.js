@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavbarPMKP from "../../../../components/Navbar/NavbarPMKP";
 import BannerRS from "../../../../components/Banner/BannerRS";
+import { asset } from "../../../../helpers/asset";
 
 const content = [
     {
@@ -12,8 +13,8 @@ const content = [
             indikator: [
                 {
                 nama: "Indikator Mutu Prioritas Semester I",
-                image: "/assets/pmkp/indikator/IMP-SMT-1.png",
-                grafik: "/assets/pmkp/indikator/GRAFIK-IMP-SMT-1.png",
+                image: asset("/assets/pmkp/indikator/IMP-SMT-1.png"),
+                grafik: asset("/assets/pmkp/indikator/GRAFIK-IMP-SMT-1.png"),
                 },
             ],
     },
@@ -23,8 +24,8 @@ const content = [
             indikator: [
               {
               nama: "Indikator Mutu Prioritas Semester II",
-              image: "/assets/pmkp/indikator/IMP-SMT-II.png",
-              grafik: "/assets/pmkp/indikator/GRAFIK-IMP-SMT-2.png",
+              image: asset("/assets/pmkp/indikator/IMP-SMT-II.png"),
+              grafik: asset("/assets/pmkp/indikator/GRAFIK-IMP-SMT-2.png"),
               },
             ],
     },
@@ -33,7 +34,7 @@ const content = [
 export default function Indikator() {
   const [choosenIndikator, setChoosenIndikator] = useState({
     nama: "kepatuhan hand hygiene",
-    image: "/assets/pmkp/indikator/prioritas-hand-hygiene.png",
+    image: asset("/assets/pmkp/indikator/prioritas-hand-hygiene.png"),
   });
 
   const [showDetails1, setShowDetails1] = useState(false);

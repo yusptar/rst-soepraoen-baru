@@ -6,6 +6,7 @@ import {
   RiGovernmentLine,
   RiMedalLine,
 } from "react-icons/ri";
+import { asset } from "../../../helpers/asset";
 
 const videos = [
   {
@@ -38,7 +39,7 @@ export default function PembangunanZI() {
     <>
       {/* HERO */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-950 via-blue-900 to-cyan-700 text-white">
-        <div className="absolute inset-0 opacity-10 bg-[url('/assets/pattern.png')]"></div>
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: `url(${asset("/assets/pattern.png")})` }}></div>
 
         <div className="relative w-11/12 2xl:w-4/5 mx-auto py-20">
           {/* Breadcrumb */}
@@ -114,7 +115,7 @@ export default function PembangunanZI() {
 
               <div className="relative bg-white rounded-[2rem] shadow-2xl overflow-hidden border border-white/20">
                 <img
-                  src="/assets/wbbm/bagan-wbbm.png"
+                  src={asset("/assets/wbbm/bagan-wbbm.png")}
                   alt="Bagan Zona Integritas"
                   className="w-full object-cover hover:scale-105 duration-500"
                 />

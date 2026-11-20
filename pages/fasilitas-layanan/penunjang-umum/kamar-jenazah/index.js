@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "../../../../helpers/asset";
 
 export default function KamarJenazah() {
   return (
@@ -28,7 +29,7 @@ export default function KamarJenazah() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/jenazah-banner.png"}
+                src={asset("/assets/unit/jenazah-banner.png")}
                 alt={"Kamar Jenazah"}
                 fill={true}
                 sizes={"100%"}

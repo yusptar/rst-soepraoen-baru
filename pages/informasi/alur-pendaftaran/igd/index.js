@@ -3,6 +3,7 @@ import BannerRS from "../../../../components/Banner/BannerRS";
 import NavbarAlurPendaftaran from "../../../../components/Navbar/NavbarAlurPendaftaran";
 import Image from "next/image";
 import KeteranganAlurPendaftaran from "../../../../components/Table/KeteranganAlur";
+import { asset } from "../../../../helpers/asset";
 
 export default function IGD() {
   return (
@@ -27,7 +28,7 @@ export default function IGD() {
           <div className="w-full md:flex justify-center items-center">
             <div className="w-full md:w-3/4 lg:w-1/3 flex justify-center">
               <Image
-                src="/assets/alur/igd.jpg"
+                src={asset("/assets/alur/igd.jpg")}
                 alt="Denah Rumah Sakit"
                 width={3309}
                 height={4678}

@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import BannerRS from "../../../../components/Banner/BannerRS";
 import NavbarTentang from "../../../../components/Navbar/NavbarKomkordik";
+import { asset } from "../../../../helpers/asset";
 
 export default function ProfilRs() {
   return (
@@ -32,7 +33,7 @@ export default function ProfilRs() {
         <div className="w-full 2xl:w-4/5 md:flex md:flex-col md:justify-center md:items-center px-5 md:px-0">
           <div className="md:w-11/12 w-full">
             <Image
-              src="/assets/banner-profile.jpeg"
+              src={asset("/assets/banner-profile.jpeg")}
               width={1991}
               height={997}
               className="cursor-pointer"

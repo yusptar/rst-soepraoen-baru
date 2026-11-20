@@ -10,6 +10,7 @@ if (typeof window !== "undefined") {
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import dynamic from "next/dynamic";
+import { asset } from "../../helpers/asset";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
@@ -18,19 +19,19 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 const contents = [
   {
     id: 1,
-    image: "/assets/ppid/ppid-1.png",
+    image: asset("/assets/ppid/ppid-1.png"),
     alt: "image2",
     link: "/",
   },
   {
     id: 2,
-    image: "/assets/ppid/ppid-2.png",
+    image: asset("/assets/ppid/ppid-2.png"),
     alt: "image2",
     link: "/",
   },
   {
     id: 3,
-    image: "/assets/ppid/maklumat-pelayanan-2.jpeg",
+    image: asset("/assets/ppid/maklumat-pelayanan-2.jpeg"),
     alt: "image2",
     link: "/",
   },
@@ -60,7 +61,7 @@ const Responsive = {
 export default function Slider() {
   const [selectedBanner, setSelectedBanner] = useState({
     id: 1,
-    image: "/assets/banner-wtrb-new.png",
+    image: asset("/assets/banner-wtrb-new.png"),
     alt: "image2",
     link: "/",
   });

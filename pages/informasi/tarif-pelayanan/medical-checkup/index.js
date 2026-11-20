@@ -7,18 +7,19 @@ import { rupiah } from "../../../../helpers/CurrencyFormatter";
 import BannerPoli from "../../../../components/Banner/BannerPoli";
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "../../../../helpers/asset";
 
 const listLayananOnkologi = [
   {
     id: 1,
-    image: "/assets/unggulan/radiologi.jpg",
+    image: asset("/assets/unggulan/radiologi.jpg"),
     description: "Radiologi",
     alt: "Radiologi",
     link: "/fasilitas-layanan/layanan-unggulan/radiologi",
   },
   {
     id: 2,
-    image: "/assets/unggulan/laboratorium.jpg",
+    image: asset("/assets/unggulan/laboratorium.jpg"),
     description: "Laboratorium",
     alt: "Laboratorium",
     link: "/fasilitas-layanan/layanan-unggulan/laboratorium",
@@ -53,7 +54,7 @@ export default function MedicalCheckup() {
         <div className="w-full 2xl:w-4/5 md:flex md:flex-col md:justify-center md:items-center px-5 md:px-0">
           <div className="md:w-11/12 flex flex-col">
             <BannerPoli
-              banner={"/assets/unggulan/mcu.jpg"}
+              banner={asset("/assets/unggulan/mcu.jpg")}
               nama_poli="Medical Checkup"
             />
             <p className="text-justify mt-4">

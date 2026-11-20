@@ -8,6 +8,7 @@ import {
   IoMdCalendar,
   IoMdTime,
 } from "react-icons/io";
+import { asset } from "../../helpers/asset";
 
 const servicesx = [
   {
@@ -130,13 +131,13 @@ export default function JamPelayanan() {
             <div className="w-full md:flex md:flex-col md:justify-center md:items-center">
               <div className="w-full h-90 aspect-[8/4.5] relative">
                 <Image
-                  src={"/assets/waktu-pelayanan-2026.png"}
+                  src={asset("/assets/waktu-pelayanan-2026.png")}
                   alt={"Rumah Sakit dr Soepraoen"}
                   fill={true}
                   className="object-cover"
                   priority={true}
                   sizes={"100%"}
-                  blurDataURL={"/assets/banner.png"}
+                  blurDataURL={asset("/assets/banner.png")}
                 />
               </div>
             </div>

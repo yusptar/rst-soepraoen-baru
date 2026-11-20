@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import YouTube from "react-youtube";
+import { asset } from "../../../helpers/asset";
 
 export default function Bidang1() {
   return (
@@ -36,7 +37,7 @@ export default function Bidang1() {
             <div className="flex justify-center mt-5">
               <div className="w-full md:w-2/4 mr-2">
                 <img
-                    src="/assets/1-bidang4.jpeg"
+                    src={asset("/assets/1-bidang4.jpeg")}
                     alt="image"
                     className=" w-full auto"
                 />
@@ -45,7 +46,7 @@ export default function Bidang1() {
               </div>
               <div className="w-full md:w-2/4 ml-2">
                 <img
-                    src="/assets/2-bidang4.jpeg"
+                    src={asset("/assets/2-bidang4.jpeg")}
                     alt="image"
                     className=" w-full auto"
                 />
@@ -54,7 +55,7 @@ export default function Bidang1() {
               </div>
               <div className="w-full md:w-2/4 ml-2">
                 <img
-                    src="/assets/3-bidang4.jpeg"
+                    src={asset("/assets/3-bidang4.jpeg")}
                     alt="image"
                     className=" w-full auto"
                 />

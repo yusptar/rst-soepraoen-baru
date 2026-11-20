@@ -3,6 +3,7 @@ import BannerRS from "../../../../components/Banner/BannerRS";
 import NavbarAlurPendaftaran from "../../../../components/Navbar/NavbarAlurPendaftaran";
 import Image from "next/image";
 import KeteranganAlurPendaftaran from "../../../../components/Table/KeteranganAlur";
+import { asset } from "../../../../helpers/asset";
 
 export default function RawatJalan() {
   return (
@@ -27,7 +28,7 @@ export default function RawatJalan() {
           <div className="w-full md:flex justify-center items-center">
             <div className="w-full md:w-3/4 lg:w-1/3 flex justify-center">
               <Image
-                src="/assets/alur/rawat-jalan.jpg"
+                src={asset("/assets/alur/rawat-jalan.jpg")}
                 alt="Alur Pendaftaran Pasien Rawat Jalan"
                 width={3309}
                 height={4678}

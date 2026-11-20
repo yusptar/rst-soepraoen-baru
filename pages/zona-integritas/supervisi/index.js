@@ -1,134 +1,135 @@
 import React from "react";
 import Link from "next/link";
 import YouTube from "react-youtube";
+import { asset } from "../../../helpers/asset";
 
 export default function Supervisi() {
   const listKapuskesad = [
     { 
-      image: "/assets/supervisi/kapuskesad/57.jpg",
+      image: asset("/assets/supervisi/kapuskesad/57.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/16.jpg",
+      image: asset("/assets/supervisi/kapuskesad/16.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/58.jpg",
+      image: asset("/assets/supervisi/kapuskesad/58.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/23.jpg",
+      image: asset("/assets/supervisi/kapuskesad/23.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/19.jpg",
+      image: asset("/assets/supervisi/kapuskesad/19.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/26.jpg",
+      image: asset("/assets/supervisi/kapuskesad/26.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/31.jpg",
+      image: asset("/assets/supervisi/kapuskesad/31.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/34.jpg",
+      image: asset("/assets/supervisi/kapuskesad/34.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/36.jpg",
+      image: asset("/assets/supervisi/kapuskesad/36.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/7.jpg",
+      image: asset("/assets/supervisi/kapuskesad/7.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/42.jpg",
+      image: asset("/assets/supervisi/kapuskesad/42.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/44.jpg",
+      image: asset("/assets/supervisi/kapuskesad/44.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/52.jpg",
+      image: asset("/assets/supervisi/kapuskesad/52.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/48.jpg",
+      image: asset("/assets/supervisi/kapuskesad/48.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/49.jpg",
+      image: asset("/assets/supervisi/kapuskesad/49.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/13.jpg",
+      image: asset("/assets/supervisi/kapuskesad/13.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/15.jpg",
+      image: asset("/assets/supervisi/kapuskesad/15.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/14.jpg",
+      image: asset("/assets/supervisi/kapuskesad/14.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/1.jpg", 
+      image: asset("/assets/supervisi/kapuskesad/1.jpg"), 
     },
     { 
-      image: "/assets/supervisi/kapuskesad/2.jpg",
+      image: asset("/assets/supervisi/kapuskesad/2.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/3.jpg",
+      image: asset("/assets/supervisi/kapuskesad/3.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/67.jpg",
+      image: asset("/assets/supervisi/kapuskesad/67.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/68.jpg",
+      image: asset("/assets/supervisi/kapuskesad/68.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/65.jpg",
+      image: asset("/assets/supervisi/kapuskesad/65.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/6.jpg",
+      image: asset("/assets/supervisi/kapuskesad/6.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/61.jpg",
+      image: asset("/assets/supervisi/kapuskesad/61.jpg"),
     },
     { 
-      image: "/assets/supervisi/kapuskesad/59.jpg",
+      image: asset("/assets/supervisi/kapuskesad/59.jpg"),
     },
   ];
 
   const listPangdamV = [
     { 
-      image: "/assets/1-pangdam.jpeg",
+      image: asset("/assets/1-pangdam.jpeg"),
     },
     { 
-      image: "/assets/2-pangdam.jpeg",
+      image: asset("/assets/2-pangdam.jpeg"),
     },
     { 
-      image: "/assets/3-pangdam.jpeg",
+      image: asset("/assets/3-pangdam.jpeg"),
     },
   ];
 
   const listsupervisiKAPUSKESAD = [
     { 
-      image: "/assets/1-kapuskesad.jpeg",
+      image: asset("/assets/1-kapuskesad.jpeg"),
     },
     { 
-      image: "/assets/2-kapuskesad.jpeg",
+      image: asset("/assets/2-kapuskesad.jpeg"),
     },
     { 
-      image: "/assets/3-kapuskesad.jpeg",
+      image: asset("/assets/3-kapuskesad.jpeg"),
     },
   ];
 
   const listItjenKemhan = [
     { 
-      image: "/assets/supervisi/2.jpg",
+      image: asset("/assets/supervisi/2.jpg"),
     },
     { 
-      image: "/assets/supervisi/1.jpg",
+      image: asset("/assets/supervisi/1.jpg"),
     },
     { 
-      image: "/assets/supervisi/7.jpg",
+      image: asset("/assets/supervisi/7.jpg"),
     },
     { 
-      image: "/assets/supervisi/4.jpg",
+      image: asset("/assets/supervisi/4.jpg"),
     },
     { 
-      image: "/assets/supervisi/5.jpg",
+      image: asset("/assets/supervisi/5.jpg"),
     },
     { 
-      image: "/assets/supervisi/3.jpg",
+      image: asset("/assets/supervisi/3.jpg"),
     },
   ];
   
@@ -219,14 +220,14 @@ export default function Supervisi() {
             <div className="flex justify-center mt-5">
               <div className="w-full md:w-4/4 mr-2">
                 <img
-                    src="/assets/supervisi/6.jpg"
+                    src={asset("/assets/supervisi/6.jpg")}
                     alt="image"
                     className=" w-full auto"
                 />
               </div>
               <div className="w-full md:w-244 ml-2">
                 <img
-                    src="/assets/supervisi/8.jpg"
+                    src={asset("/assets/supervisi/8.jpg")}
                     alt="image"
                     className=" w-full auto"
                 />

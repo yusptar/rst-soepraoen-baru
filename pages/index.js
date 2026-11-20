@@ -16,6 +16,7 @@ import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper/modules";
 import AnimatedInView from "../components/TransitionEffect/AnimatedInView";
 import AccessibilityTools from "../components/Button/AccessibilityTools";
+import { asset } from "../helpers/asset";
 
 
 const Dashboard = () => {
@@ -249,7 +250,7 @@ const Dashboard = () => {
             autoPlay
             className="w-full rounded-lg shadow-lg"
           >
-            <source src="/assets/video/ramadhan-2025.mp4" type="video/mp4" />
+            <source src={asset("/assets/video/ramadhan-2025.mp4")} type="video/mp4" />
             Browser Anda tidak mendukung pemutaran video.
           </video>
         </div>
@@ -275,7 +276,7 @@ const Dashboard = () => {
                     className="w-full md:w-9/12 h-auto md:h-[500px] rounded-lg shadow-lg"
                     style={{ objectFit: "contain", aspectRatio: "16/9" }}
                   >
-                    <source src="/assets/video/ramadhan-2025.mp4" type="video/mp4" />
+                    <source src={asset("/assets/video/ramadhan-2025.mp4")} type="video/mp4" />
                     Browser Anda tidak mendukung pemutaran video.
                   </video>
                 </div>
@@ -316,7 +317,7 @@ const Dashboard = () => {
                       muted
                       loop
                     >
-                      <source src="/assets/jadwal-dokter/24-05-26.mp4" type="video/mp4" />
+                      <source src={asset("/assets/jadwal-dokter/24-05-26.mp4")} type="video/mp4" />
                       Browser Anda tidak mendukung video.
                     </video>
                   </div>

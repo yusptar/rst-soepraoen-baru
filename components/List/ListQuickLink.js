@@ -6,6 +6,7 @@ import { TbZoomMoney } from "react-icons/tb";
 import { IoMdBed } from "react-icons/io";
 import { MdBookOnline } from "react-icons/md";
 import Image from "next/image";
+import { asset } from "../../helpers/asset";
 
 export const listQuickLinks = [
   {
@@ -103,7 +104,7 @@ export const listQuickLinks = [
     icon: (
       <div className="flex items-center justify-center w-20 h-20 text-white  rounded-full">
          <Image
-            src="/assets/logo-homecare.png"
+            src={asset("/assets/logo-homecare.png")}
             alt="homecare"
             width={400}
             height={500}
@@ -121,7 +122,7 @@ export const listQuickLinks = [
     icon: (
       <div className="flex items-center justify-center w-20 h-20 text-white  rounded-full">
          <Image
-            src="/assets/logo-konsultasi-online.png"
+            src={asset("/assets/logo-konsultasi-online.png")}
             alt="homecare"
             width={400}
             height={500}

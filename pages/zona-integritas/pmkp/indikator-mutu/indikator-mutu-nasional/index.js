@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavbarPMKP from "../../../../../components/Navbar/NavbarPMKP";
 import BannerRS from "../../../../../components/Banner/BannerRS";
+import { asset } from "../../../../../helpers/asset";
 
 const content = {
     deskripsi:
@@ -11,52 +12,52 @@ const content = {
     indikator: [
       {
         nama: "Kepatuhan Identifikasi Pasien",
-        image: "/assets/pmkp/indikator/kepatuhan-identifikasi-pasien.png",
+        image: asset("/assets/pmkp/indikator/kepatuhan-identifikasi-pasien.png"),
       },
       {
         nama: "Kepatuhan Upaya Pencegahan Risiko Cedera Akibat Pasien Jatuh pada Pasien Rawat Inap",
         image:
-          "/assets/pmkp/indikator/kepatuhan-upaya-pencegahan-risiko-cedera-akibat-pasien-jatuh-pada-pasien-rawat-inap.png",
+          asset("/assets/pmkp/indikator/kepatuhan-upaya-pencegahan-risiko-cedera-akibat-pasien-jatuh-pada-pasien-rawat-inap.png"),
       },
       {
         nama: "Kepuasan Pasien dan Keluarga",
-        image: "/assets/pmkp/indikator/kepuasan-pasien-dan-keluarga.png",
+        image: asset("/assets/pmkp/indikator/kepuasan-pasien-dan-keluarga.png"),
       },
       {
         nama: "Kepatuhan Penggunaan APD",
-        image: "/assets/pmkp/indikator/kepatuhan-penggunaan-apd.png",
+        image: asset("/assets/pmkp/indikator/kepatuhan-penggunaan-apd.png"),
       },
       {
         nama: "Kepatuhan Cuci Tangan",
-        image: "/assets/pmkp/indikator/kepatuhan-cuci-tangan.png",
+        image: asset("/assets/pmkp/indikator/kepatuhan-cuci-tangan.png"),
       },
       {
         nama: "Waktu Tunggu di Rawat Jalan ≤ 180 Menit",
-        image: "/assets/pmkp/indikator/waktu-tunggu-di-rawat-jalan.png",
+        image: asset("/assets/pmkp/indikator/waktu-tunggu-di-rawat-jalan.png"),
       },
       {
         nama: "Penundaan Operasi Elektif",
-        image: "/assets/pmkp/indikator/penundaan-operasi-elektif.png",
+        image: asset("/assets/pmkp/indikator/penundaan-operasi-elektif.png"),
       },
       {
         nama: "Waktu Laporan Hasil Nilai Kritis Laboratorium < 30 Menit",
         image:
-          "/assets/pmkp/indikator/waktu-laporan-hasil-nilai-kritis-laboratorium.png",
+          asset("/assets/pmkp/indikator/waktu-laporan-hasil-nilai-kritis-laboratorium.png"),
       },
       {
         nama: "Kepatuhan Penggunaan Formularium Nasional (FORNAS)",
         image:
-          "/assets/pmkp/indikator/kepatuhan-penggunaan-formularium-nasional-fornas.png",
+          asset("/assets/pmkp/indikator/kepatuhan-penggunaan-formularium-nasional-fornas.png"),
       },
       {
         nama: "Kepatuhan Terhadap Clinical Pathway",
         image:
-          "/assets/pmkp/indikator/kepatuhan-terhadap-clinical-pathway.png",
+          asset("/assets/pmkp/indikator/kepatuhan-terhadap-clinical-pathway.png"),
       },
       {
         nama: "Kecepatan Respon Terhadap Komplain",
         image:
-          "/assets/pmkp/indikator/kecepatan-respon-terhadap-komplain.png",
+          asset("/assets/pmkp/indikator/kecepatan-respon-terhadap-komplain.png"),
       },
   ],
 };
@@ -66,7 +67,7 @@ export default function Indikator() {
   const { indikator } = router.query;
   const [choosenIndikator, setChoosenIndikator] = useState({
     nama: "kepatuhan identifikasi pasien",
-    image: "/assets/pmkp/indikator/kepatuhan-identifikasi-pasien.png",
+    image: asset("/assets/pmkp/indikator/kepatuhan-identifikasi-pasien.png"),
   });
 
   return (

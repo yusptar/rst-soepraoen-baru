@@ -12,6 +12,7 @@ if (typeof window !== "undefined") {
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import dynamic from "next/dynamic";
+import { asset } from "../../helpers/asset";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
@@ -20,17 +21,17 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 const contents = [
   {
     id: 1,
-    image: "/assets/standar-pelayanan/2026/igd.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/igd.jpeg"),
     alt: "Standar Pelayanan IGD",
   },
   {
     id: 2,
-    image: "/assets/standar-pelayanan/2026/anak.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/anak.jpeg"),
     alt: "Standar Pelayanan Anak",
   },
   {
     id: 3,
-    image: "/assets/standar-pelayanan/2026/bedah.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/bedah.jpeg"),
     alt: "Standar Pelayanan Bedah",
   },
   // {
@@ -85,7 +86,7 @@ const contents = [
   // },
   {
     id: 14,
-    image: "/assets/standar-pelayanan/2026/kandungan.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/kandungan.jpeg"),
     alt: "Standar Pelayanan Kandungan",
   },
   // {
@@ -100,17 +101,17 @@ const contents = [
   // },
   {
     id: 17,
-    image: "/assets/standar-pelayanan/2026/kulit.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/kulit.jpeg"),
     alt: "Standar Pelayanan Kulit dan Kelamin",
   },
   {
     id: 18,
-    image: "/assets/standar-pelayanan/2026/mata.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/mata.jpeg"),
     alt: "Standar Pelayanan Mata",
   },
   {
     id: 19,
-    image: "/assets/standar-pelayanan/2026/saraf.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/saraf.jpeg"),
     alt: "Standar Pelayanan Neurologi (Syaraf)",
   },
   // {
@@ -125,7 +126,7 @@ const contents = [
   // },
   {
     id: 22,
-    image: "/assets/standar-pelayanan/2026/penyakit-dalam.jpeg",
+    image: asset("/assets/standar-pelayanan/2026/penyakit-dalam.jpeg"),
     alt: "Standar Pelayanan Penyakit Dalam",
   },
   // {
@@ -180,7 +181,7 @@ const Responsive = {
 export default function Slider() {
   const [selectedBanner, setSelectedBanner] = useState({
     id: 1,
-    image: "/assets/banner-wtrb-new.png",
+    image: asset("/assets/banner-wtrb-new.png"),
     alt: "image2",
     link: "/",
   });

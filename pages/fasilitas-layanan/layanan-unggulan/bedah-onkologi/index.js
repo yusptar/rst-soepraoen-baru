@@ -2,25 +2,26 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BannerRS from "../../../../components/Banner/BannerRS";
+import { asset } from "../../../../helpers/asset";
 
 const listLayananOnkologi = [
   {
     id: 3,
-    image: "/assets/unggulan/onkologi-ginekologi-banner.jpg",
+    image: asset("/assets/unggulan/onkologi-ginekologi-banner.jpg"),
     description: "Onkologi Ginekologi",
     alt: "Onkologi Ginekologi",
     link: "/fasilitas-layanan/layanan-unggulan/onkologi-ginekologi",
   },
   {
     id: 4,
-    image: "/assets/unggulan/onkologi-hematologi-banner.jpg",
+    image: asset("/assets/unggulan/onkologi-hematologi-banner.jpg"),
     description: "Onkologi Hematologi",
     alt: "Onkologi Hematologi",
     link: "/fasilitas-layanan/layanan-unggulan/onkologi-hematologi",
   },
   {
     id: 5,
-    image: "/assets/unggulan/onkologi-paru-banner.jpg",
+    image: asset("/assets/unggulan/onkologi-paru-banner.jpg"),
     description: "Onkologi Paru",
     alt: "Onkologi Paru",
     link: "/fasilitas-layanan/layanan-unggulan/onkologi-paru",
@@ -40,7 +41,7 @@ export default function BedahOnkologi() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/bedah-onkologi-banner.jpg"}
+                src={asset("/assets/unggulan/bedah-onkologi-banner.jpg")}
                 alt={"Bedah Onkologi"}
                 // fill={true}
                 priority={true}

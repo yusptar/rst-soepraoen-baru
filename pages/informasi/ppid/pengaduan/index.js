@@ -4,6 +4,7 @@ import NavbarPPID from "../../../../components/Navbar/NavbarPPID";
 import Image from "next/image";
 import Link from "next/link";
 import { Ri24HoursLine } from "react-icons/ri";
+import { asset } from "../../../../helpers/asset";
 
 export default function PengaduanPPID() {
   return (
@@ -26,7 +27,7 @@ export default function PengaduanPPID() {
             <div className="flex justify-center items-center ">
               <div className="w-1/2 flex flex-col justify-center items-center">
                 <Image
-                  src={"/assets/pengaduan.png"}
+                  src={asset("/assets/pengaduan.png")}
                   alt={"epasien"}
                   height={0}
                   width={200}

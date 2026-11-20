@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navlinks from "./Navlinks";
 import { SocialIcon } from "react-social-icons";
 import { Ri24HoursLine } from "react-icons/ri";
+import { asset } from "../../helpers/asset";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
                   href="https://www.lapor.go.id/"
                 >
                    <img
-                    src="/assets/SPANLAPOR.png"
+                    src={asset("/assets/SPANLAPOR.png")}
                     alt="image"
                     className="w-10 h-10 ml-2"
                   />
@@ -55,7 +56,7 @@ const Navbar = () => {
                   href="https://sippn.menpan.go.id/"
                 >
                    <img
-                    src="/assets/CARIYANKLIK.png"
+                    src={asset("/assets/CARIYANKLIK.png")}
                     alt="image"
                     className="w-20 h-10 ml-1"
                   />
@@ -67,7 +68,7 @@ const Navbar = () => {
                   href="/zona-integritas/all-bidang"
                 >
                    <img
-                    src="/assets/logo-zi.png"
+                    src={asset("/assets/logo-zi.png")}
                     alt="image"
                     className="w-20 h-10 ml-3"
                   />
@@ -77,7 +78,7 @@ const Navbar = () => {
         <div className="mx-auto md:px-0 md:w-5/6  w-full justify-between flex pr-3">
           <div className="md:px-0 md:hidden">
             <Image
-              src="/assets/logo-banner.png"
+              src={asset("/assets/logo-banner.png")}
               alt="logo"
               className="md:cursor-pointer"
               width={250}
@@ -88,7 +89,7 @@ const Navbar = () => {
             <div className="flex text-xs font-normal text-black w-full justify-around">
               <div className="md:p-0 h-full flex flex-col justify-center items-center align-middle">
                 <Image
-                  src="/assets/logo/logo-panjang-rst.jpg"
+                  src={asset("/assets/logo/logo-panjang-rst.jpg")}
                   alt="logo"
                   className="md:cursor-pointer pl-3 md:pl-0 w-full h-auto"
                   width="0"
@@ -156,7 +157,7 @@ const Navbar = () => {
                   href="https://www.lapor.go.id/"
                 >
                    <img
-                    src="/assets/SPANLAPOR.png"
+                    src={asset("/assets/SPANLAPOR.png")}
                     alt="image"
                     className="w-20 h-50 ml-5"
                   />
@@ -168,7 +169,7 @@ const Navbar = () => {
                   href="https://sippn.menpan.go.id/"
                 >
                    <img
-                    src="/assets/CARIYANKLIK.png"
+                    src={asset("/assets/CARIYANKLIK.png")}
                     alt="image"
                     className="w-50 h-20 ml-5"
                   />
@@ -180,7 +181,7 @@ const Navbar = () => {
                   href="/zona-integritas/all-bidang"
                 >
                    <img
-                    src="/assets/logo-zi.png"
+                    src={asset("/assets/logo-zi.png")}
                     alt="image"
                     className="w-50 h-20 ml-5"
                   />
@@ -298,7 +299,7 @@ const Navbar = () => {
             <Link href="/" className="py-7 md:py-0 px-3 md:px-0 font-light">
               <div className="md:p-1 h-full flex flex-col justify-center md:hidden">
                 <Image
-                  src="/assets/logo-web.png"
+                  src={asset("/assets/logo-web.png")}
                   alt="logo"
                   className="md:cursor-pointer pl-3 md:pl-0 w-full h-auto"
                   width="0"

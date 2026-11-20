@@ -10,6 +10,7 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
+import { asset } from "../../../helpers/asset";
 
 // Urutan seksi mengikuti Struktur Orgas BLU (Rev. November 2026)
 const sections = [
@@ -32,7 +33,7 @@ export default function JajaranDireksi() {
       <div className="relative overflow-hidden">
         <div className="w-full aspect-[3/4] relative bg-slate-100">
           <Image
-            src={item.foto || "/assets/logo/logo-rs-baru.jpg"}
+            src={item.foto || asset("/assets/logo/logo-rs-baru.jpg")}
             alt={item.nama || item.jabatan}
             fill
             className={`transition-all duration-700 group-hover:scale-105 ${

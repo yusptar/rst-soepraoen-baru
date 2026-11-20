@@ -1,16 +1,17 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "../../../../helpers/asset";
 
 const listGallery = [
   {
-    image: "/assets/unit/stroke-1.jpg",
+    image: asset("/assets/unit/stroke-1.jpg"),
   },
   {
-    image: "/assets/unit/stroke-2.jpg",
+    image: asset("/assets/unit/stroke-2.jpg"),
   },
   {
-    image: "/assets/unit/stroke-3.jpg",
+    image: asset("/assets/unit/stroke-3.jpg"),
   },
 ];
 
@@ -40,7 +41,7 @@ export default function UnitStroke() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/stroke-banner.png"}
+                src={asset("/assets/unit/stroke-banner.png")}
                 alt={"Unit Stroke"}
                 fill={true}
                 sizes={"100%"}

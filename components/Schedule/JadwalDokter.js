@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Image from "next/image";
 import Link from "next/link";
 import { IMAGE_URL } from "../../services/NetworkServices";
+import { asset } from "../../helpers/asset";
 
 const listHari = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"];
 
@@ -16,7 +17,7 @@ function JadwalDokter({ doctor, namaSpesialis, namaPoli, highContrast = false })
 
   const fotoDokter = doctor.imagepath
     ? IMAGE_URL + doctor.imagepath
-    : "/assets/doctor.png";
+    : asset("/assets/doctor.png");
 
   const altText = doctor.nm_dokter
     ? `Foto ${doctor.nm_dokter}${doctor.spesialis?.nm_sps ? `, ${doctor.spesialis.nm_sps}` : ""}`
@@ -66,8 +67,8 @@ function JadwalDokter({ doctor, namaSpesialis, namaPoli, highContrast = false })
             unoptimized
             onError={(e) => {
               const target = e.currentTarget;
-              if (!target.src.includes("/assets/doctor.png")) {
-                target.src = "/assets/doctor.png";
+              if (!target.src.includes(asset("/assets/doctor.png"))) {
+                target.src = asset("/assets/doctor.png");
                 console.warn(`Gagal memuat foto dokter: ${doctor.nm_dokter} (${doctor.kd_dokter})`);
               }
             }}

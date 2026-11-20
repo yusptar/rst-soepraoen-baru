@@ -9,6 +9,7 @@ import {
   LuHeartPulse,
   LuShieldCheck,
 } from "react-icons/lu";
+import { asset } from "../../../helpers/asset";
 
 export default function ProfilRs() {
   return (
@@ -53,7 +54,7 @@ export default function ProfilRs() {
             {/* IMAGE */}
             <div className="relative overflow-hidden rounded-[2rem]">
               <Image
-                src="/assets/profil-rs-2026.jpeg"
+                src={asset("/assets/profil-rs-2026.jpeg")}
                 alt="Profil Rumah Sakit"
                 width={1991}
                 height={997}

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { asset } from "../../helpers/asset";
 
 export default function Epasien() {
   return (
@@ -20,7 +21,7 @@ export default function Epasien() {
         <div className="flex w-5/6">
           <div className="w-1/3 md:w-2/12 z-20 ">
             <Image
-              src={"/assets/Epasien.png"}
+              src={asset("/assets/Epasien.png")}
               alt={"epasien"}
               height={0}
               width={300}
@@ -47,7 +48,7 @@ export default function Epasien() {
                 height="0"
                 sizes="100%"
                 className="w-full h-auto"
-                src={"/assets/HaloSoepraoen.png"}
+                src={asset("/assets/HaloSoepraoen.png")}
                 alt={"logo epasien"}
               />
             </div>
@@ -58,7 +59,7 @@ export default function Epasien() {
                 height="0"
                 sizes="100%"
                 className="w-full h-auto cursor-pointer"
-                src={"/assets/playstore.png"}
+                src={asset("/assets/playstore.png")}
                 alt={"logo playstore"}
                 onClick={() => {
                   window.location.href

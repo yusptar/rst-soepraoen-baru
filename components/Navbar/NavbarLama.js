@@ -2,6 +2,7 @@ import Link from "next/link";
 import { React, useState } from "react";
 import Image from "next/image";
 import Navlinks from "./Navlinks";
+import { asset } from "../../helpers/asset";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div className="mx-auto md:px-0 md:w-4/5  w-full justify-between flex pt-2 pr-3">
           <div className="md:px-0 md:py-2 ">
             <Image
-              src="/assets/logo-web.png"
+              src={asset("/assets/logo-web.png")}
               alt="logo"
               className="md:cursor-pointer pl-3 md:pl-0"
               width={180}
@@ -26,7 +27,7 @@ const Navbar = () => {
           <div className="hidden p-0 md:flex items-center">
             {/* <button className="btn btn-primary">Hubungi kami</button> */}
             <Image
-              src="/assets/contact.png"
+              src={asset("/assets/contact.png")}
               alt="logo"
               className="md:cursor-pointer"
               width={180}

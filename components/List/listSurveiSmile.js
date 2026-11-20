@@ -1,8 +1,9 @@
+import { asset } from "../../helpers/asset";
 export const listSurvei = [
   {
     tahun: "2022 Triwulan I",
-    imageURL1 : "/assets/ikm/smile-t1.png",
-    imageURL2 : "/assets/ikm/smile-t1-konversi.png",
+    imageURL1 : asset("/assets/ikm/smile-t1.png"),
+    imageURL2 : asset("/assets/ikm/smile-t1-konversi.png"),
     listIKM1: [
       {
         dimensiKepuasanPasien: "Persyaratan",
@@ -130,8 +131,8 @@ export const listSurvei = [
   },
   {
     tahun: "2022 Triwulan II",
-    imageURL1 : "/assets/ikm/smile-t2.png",
-    imageURL2 : "/assets/ikm/smile-t2-konversi.png",
+    imageURL1 : asset("/assets/ikm/smile-t2.png"),
+    imageURL2 : asset("/assets/ikm/smile-t2-konversi.png"),
     listIKM1: [
       {
         dimensiKepuasanPasien: "Persyaratan",

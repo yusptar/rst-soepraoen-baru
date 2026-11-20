@@ -5,6 +5,7 @@ import { Ri24HoursLine } from "react-icons/ri";
 import BannerRS from "../../../components/Banner/BannerRS";
 import NavbarPPID from "../../../components/Navbar/NavbarPPID";
 import KeteranganAlurPendaftaran from "../../../components/Table/KeteranganAlur";
+import { asset } from "../../../helpers/asset";
 
 export default function PengaduanPPID() {
   return (
@@ -40,7 +41,7 @@ export default function PengaduanPPID() {
             {/* Mobile JKN */}
             <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
               <Image
-                src={"/assets/qr-jkn.png"}
+                src={asset("/assets/qr-jkn.png")}
                 alt={"epasien"}
                 height={0}
                 width={200}
@@ -57,7 +58,7 @@ export default function PengaduanPPID() {
                 </span>
               </div>
               <video
-                src="/assets/pendaftaran/mobile-jkn.mp4"
+                src={asset("/assets/pendaftaran/mobile-jkn.mp4")}
                 muted
                 controls
                 className="mt-4 w-full max-w-3xl rounded-xl shadow-lg"
@@ -67,7 +68,7 @@ export default function PengaduanPPID() {
             {/* Halo Soepraoen */}
             <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
               <Image
-                src={"/assets/qr-halo-soepraoen.png"}
+                src={asset("/assets/qr-halo-soepraoen.png")}
                 alt={"epasien"}
                 height={0}
                 width={200}
@@ -87,7 +88,7 @@ export default function PengaduanPPID() {
                   </div>
 
               <video
-                src="/assets/pendaftaran/halo-soepraoen.mp4"
+                src={asset("/assets/pendaftaran/halo-soepraoen.mp4")}
                 muted
                 controls
                 className="mt-4 w-full max-w-3xl rounded-xl shadow-lg"
@@ -116,7 +117,7 @@ export default function PengaduanPPID() {
             <div className="flex flex-col justify-center items-center ">
               <div className="w-full flex gap-5 justify-center items-center bg-slate-100">
                 <Image
-                  src={"/assets/anjungan-terbaru.png"}
+                  src={asset("/assets/anjungan-terbaru.png")}
                   alt={"epasien"}
                   height={0}
                   width={1800}
@@ -125,7 +126,7 @@ export default function PengaduanPPID() {
               </div>
               <div className="w-full flex gap-5 justify-center items-center bg-slate-100">
                 <Image
-                  src={"/assets/alur-offline-update.png"}
+                  src={asset("/assets/alur-offline-update.png")}
                   alt={"epasien"}
                   height={0}
                   width={2000}
@@ -134,7 +135,7 @@ export default function PengaduanPPID() {
               </div>
               {/* <div className="w-full flex gap-5 justify-center items-center">
                 <Image
-                  src={"/assets/alur/rawat-jalan.jpg"}
+                  src={asset("/assets/alur/rawat-jalan.jpg")}
                   alt={"epasien"}
                   height={0}
                   width={600}

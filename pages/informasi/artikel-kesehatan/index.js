@@ -4,7 +4,8 @@ import BannerRS from "../../../components/Banner/BannerRS";
 import { WEBSERVICE, IMAGE_URL } from "../../../services/NetworkServices";
 import { formatDate } from "../../../helpers/DateTimeFormatters";
 import Link from "next/link";
-const dummyImage = "/assets/3.jpg";
+import { asset } from "../../../helpers/asset";
+const dummyImage = asset("/assets/3.jpg");
 
 export default function Artikel() {
   const [listArtikelPopuler, setListArtikelPopuler] = useState([]);

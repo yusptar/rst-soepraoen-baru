@@ -10,6 +10,7 @@ import relativeTime from "dayjs/plugin/relativeTime";
 dayjs.extend(relativeTime);
 dayjs.locale("id");
 import { WEBSERVICE, IMAGE_URL } from "../../services/NetworkServices";
+import { asset } from "../../helpers/asset";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -41,7 +42,7 @@ const Responsive = {
   },
 };
 
-const dummyImage = "/assets/2.jpg";
+const dummyImage = asset("/assets/2.jpg");
 
 // strip html tags
 function strip(html) {

@@ -1,6 +1,7 @@
 import { React } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "../../../../helpers/asset";
 
 export default function OnkologiParu() {
   return (
@@ -28,7 +29,7 @@ export default function OnkologiParu() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/onkologi-paru-banner.jpg"}
+                src={asset("/assets/unggulan/onkologi-paru-banner.jpg")}
                 alt={"Onkologi Paru"}
                 // fill={true}
                 priority={true}

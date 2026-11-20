@@ -4,6 +4,7 @@ import PhoneInput from "react-phone-number-input/input";
 import ModalNotificationPengaduan from "../../../../components/Modal/NotificationPengaduan";
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "../../../../helpers/asset";
 
 export default function untiCSSD() {
 
@@ -40,7 +41,7 @@ export default function untiCSSD() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/cssd2.jpg"}
+                src={asset("/assets/cssd2.jpg")}
                 alt={"CSSD"}
                 fill={true}
                 sizes={"100%"}

@@ -4,18 +4,19 @@ import Link from "next/link";
 import "dayjs/locale/id";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
+import { asset } from "../../../../helpers/asset";
 dayjs.extend(relativeTime);
 dayjs.locale("id");
 
 const listGallery = [
   {
-    image: "/assets/unit/kemoterapi-1.jpg",
+    image: asset("/assets/unit/kemoterapi-1.jpg"),
   },
   {
-    image: "/assets/unit/kemoterapi-2.jpg",
+    image: asset("/assets/unit/kemoterapi-2.jpg"),
   },
   {
-    image: "/assets/unit/kemoterapi-3.jpg",
+    image: asset("/assets/unit/kemoterapi-3.jpg"),
   },
 ];
 
@@ -45,7 +46,7 @@ export default function UnitKemoterapi() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/KEMOTERAPI.jpeg"}
+                src={asset("/assets/unit/KEMOTERAPI.jpeg")}
                 alt={"Unit Kemoterapi"}
                 fill={true}
                 priority={true}

@@ -4,8 +4,9 @@ import BannerRS from "../../../components/Banner/BannerRS";
 import Link from "next/link";
 import { WEBSERVICE, IMAGE_URL } from "../../../services/NetworkServices";
 import { formatDate } from "../../../helpers/DateTimeFormatters";
+import { asset } from "../../../helpers/asset";
 
-const dummyImage = "/assets/2.jpg";
+const dummyImage = asset("/assets/2.jpg");
 
 export default function Berita() {
   const [listBeritaPopuler, setListBeritaPopuler] = useState([]);

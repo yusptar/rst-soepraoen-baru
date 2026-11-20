@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { listFasilitasUmum } from "../../../components/List/listFasilitasUmum";
+import { asset } from "../../../helpers/asset";
 
 export default function FasilitasUmum() {
   return (
@@ -25,7 +26,7 @@ export default function FasilitasUmum() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[8/4] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/fasum.png"}
+                src={asset("/assets/unit/fasum.png")}
                 alt={"Fasilitas Umum"}
                 width="1000"
                 height="0"

@@ -2,25 +2,26 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BannerRS from "../../../../components/Banner/BannerRS";
+import { asset } from "../../../../helpers/asset";
 
 const listLayananJantungTerpadu = [
   {
     id: 1,
-    image: "/assets/unggulan/cath-lab.jpg",
+    image: asset("/assets/unggulan/cath-lab.jpg"),
     description: "Cathlab",
     alt: "Cathlab",
     link: "/fasilitas-layanan/layanan-unggulan/cathlab",
   },
   {
     id: 2,
-    image: "/assets/unggulan/echocardiography-banner.jpg",
+    image: asset("/assets/unggulan/echocardiography-banner.jpg"),
     description: "Echocardiography",
     alt: "Echocardiography",
     link: "/fasilitas-layanan/layanan-unggulan/echocardiography",
   },
   {
     id: 3,
-    image: "/assets/unggulan/treadmill-banner.jpg",
+    image: asset("/assets/unggulan/treadmill-banner.jpg"),
     description: "Layanan Treadmill",
     alt: "Layanan Treadmill",
     link: "/fasilitas-layanan/layanan-unggulan/layanan-treadmill",
@@ -40,7 +41,7 @@ export default function JantungTerpadu() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/cath-lab.jpg"}
+                src={asset("/assets/unggulan/cath-lab.jpg")}
                 alt={"Test Kesehatan Jiwa & Psikotest"}
                 // fill={true}
                 priority={true}

@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Epasien from "../components/Banner/Epasien";
+import { asset } from "../helpers/asset";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -25,7 +26,7 @@ export default function MyApp({ Component, pageProps }) {
           RST DR SOEPRAOEN telah terakreditasi Paripurna dan mendapatkan penghargaan sebagai Satuan Kerja Berkinerja Terbaik II Kategori Badan Layanan Umum Atas Kinerja Pelaksanaan Anggaran Periode tahun 2021."
         />
         <meta name="facebook-domain-verification" content="cplqjp1148f2c9ablq3btietaw405d" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href={asset("/logo.png")} />
       </Head>
       <div className="bg-white text-black">
         <Navbar />

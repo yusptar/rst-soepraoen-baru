@@ -2,25 +2,26 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BannerRS from "../../../../../components/Banner/BannerRS";
+import { asset } from "../../../../../helpers/asset";
 
 const listLayananOnkologi = [
   {
     id: 1,
-    image: "/assets/kemoterapi.jpg",
+    image: asset("/assets/kemoterapi.jpg"),
     description: "Unit Kemoterapi",
     alt: "Unit Kemoterapi",
     link: "/fasilitas-layanan/layanan-unggulan/unit-kemoterapi",
   },
   {
     id: 2,
-    image: "/assets/unggulan/radioterapi.jpeg",
+    image: asset("/assets/unggulan/radioterapi.jpeg"),
     description: "Radioterapi",
     alt: "Radioterapi",
     link: "/fasilitas-layanan/layanan-unggulan/radioterapi",
   },
   {
     id: 3,
-    image: "/assets/unggulan/bedah-onkologi-banner.jpg",
+    image: asset("/assets/unggulan/bedah-onkologi-banner.jpg"),
     description: "Bedah Onkologi",
     alt: "Bedah Onkologi",
     link: "/fasilitas-layanan/layanan-unggulan/bedah-onkologi",
@@ -54,7 +55,7 @@ export default function EdukasOnkoter() {
           {/* <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/onkologi-terpadu-banner.jpg"}
+                src={asset("/assets/unggulan/onkologi-terpadu-banner.jpg")}
                 alt={"Test Kesehatan Jiwa & Psikotest"}
                 // fill={true}
                 priority={true}

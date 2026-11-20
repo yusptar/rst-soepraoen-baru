@@ -1,3 +1,4 @@
+import { asset } from "../../helpers/asset";
 export const listSurvei = [
   {
     tahun: "2026",
@@ -9,7 +10,7 @@ export const listSurvei = [
           jumlahSaran: "0",
           pelaksanaan: "Januari - Maret",
           // pelaksanaan: "Tahunan",
-          image:"/assets/ikm/2026/SKM-TW-I.jpeg",
+          image:asset("/assets/ikm/2026/SKM-TW-I.jpeg"),
           jumlahResponden: "254",
           jenisKelamin: [
             {
@@ -256,7 +257,7 @@ export const listSurvei = [
           pelaksanaan: "Juli - September",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "240",
-          image:"/assets/ikm/2026/SKM-TW-III.jpeg",
+          image:asset("/assets/ikm/2026/SKM-TW-III.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -518,9 +519,9 @@ export const listSurvei = [
           jumlahSaran: "0",
           pelaksanaan: "Januari - Maret",
           // pelaksanaan: "Tahunan",
-          image:"/assets/skm-2025/JAN.jpg",
-          imagea:"/assets/skm-2025/FEB.jpg",
-          imageb:"/assets/skm-2025/MAR.jpg",
+          image:asset("/assets/skm-2025/JAN.jpg"),
+          imagea:asset("/assets/skm-2025/FEB.jpg"),
+          imageb:asset("/assets/skm-2025/MAR.jpg"),
           jumlahResponden: "254",
           jenisKelamin: [
             {
@@ -644,9 +645,9 @@ export const listSurvei = [
           pelaksanaan: "April - Juni",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "205",
-          image:"/assets/skm-2025/APRIL.jpg",
-          imagea:"/assets/skm-2025/MEI.jpg",
-          imageb:"/assets/skm-2025/JUN.jpg",
+          image:asset("/assets/skm-2025/APRIL.jpg"),
+          imagea:asset("/assets/skm-2025/MEI.jpg"),
+          imageb:asset("/assets/skm-2025/JUN.jpg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -769,9 +770,9 @@ export const listSurvei = [
           pelaksanaan: "Juli - September",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "240",
-          image:"/assets/skm-2025/JUL.jpg",
-          imagea:"/assets/skm-2025/AGT.jpg",
-          imageb:"/assets/skm-2025/SEP.jpg",
+          image:asset("/assets/skm-2025/JUL.jpg"),
+          imagea:asset("/assets/skm-2025/AGT.jpg"),
+          imageb:asset("/assets/skm-2025/SEP.jpg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -894,7 +895,7 @@ export const listSurvei = [
           pelaksanaan: "Oktober - Desember",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "313",
-          image:"/assets/skm-2025/SKM-tw-4-2025.jpeg",
+          image:asset("/assets/skm-2025/SKM-tw-4-2025.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -1033,7 +1034,7 @@ export const listSurvei = [
           jumlahSaran: "0",
           pelaksanaan: "Januari - Maret",
           // pelaksanaan: "Tahunan",
-          image:"/assets/ikm/tw-1-2024.jpeg",
+          image:asset("/assets/ikm/tw-1-2024.jpeg"),
           jumlahResponden: "254",
           jenisKelamin: [
             {
@@ -1157,7 +1158,7 @@ export const listSurvei = [
           pelaksanaan: "April - Juni",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "205",
-          image:"/assets/ikm/tw-2-2024.jpeg",
+          image:asset("/assets/ikm/tw-2-2024.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -1280,7 +1281,7 @@ export const listSurvei = [
           pelaksanaan: "Juli - September",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "240",
-          image:"/assets/ikm/tw-3-2024.jpeg",
+          image:asset("/assets/ikm/tw-3-2024.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",
@@ -1403,7 +1404,7 @@ export const listSurvei = [
           pelaksanaan: "Oktober - Desember",
           // pelaksanaan: "Tahunan",
           jumlahResponden: "240",
-          image:"/assets/ikm/2024/SKM-TW-IV.jpeg",
+          image:asset("/assets/ikm/2024/SKM-TW-IV.jpeg"),
           jenisKelamin: [
             {
               jenisKelamin: "Laki-laki",

@@ -8,16 +8,17 @@ dayjs.extend(relativeTime);
 dayjs.locale("id");
 import { HTTP } from "../../../../services/NetworkServices";
 import JadwalDokter from "../../../../components/Schedule/JadwalDokter";
+import { asset } from "../../../../helpers/asset";
 
 const listGallery = [
   {
-    image: "/assets/unit/hemodialisa-1.jpg",
+    image: asset("/assets/unit/hemodialisa-1.jpg"),
   },
   {
-    image: "/assets/unit/hemodialisa-2.jpg",
+    image: asset("/assets/unit/hemodialisa-2.jpg"),
   },
   {
-    image: "/assets/unit/hemodialisa-3.jpg",
+    image: asset("/assets/unit/hemodialisa-3.jpg"),
   },
 ];
 
@@ -58,7 +59,7 @@ export default function UnitHemodialisa() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/radioterapi-banner.jpg"}
+                src={asset("/assets/unit/radioterapi-banner.jpg")}
                 alt={"Radioterapi"}
                 // fill={true}
                 priority={true}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavbarPMKP from "../../../../components/Navbar/NavbarPMKP";
 import BannerRS from "../../../../components/Banner/BannerRS";
+import { asset } from "../../../../helpers/asset";
 
 const content = {
   deskripsi:
@@ -11,51 +12,51 @@ const content = {
   indikator: [
     {
       nama: "Kepatuhan Hand Hygiene",
-      image: "/assets/pmkp/indikator/prioritas-hand-hygiene.png",
+      image: asset("/assets/pmkp/indikator/prioritas-hand-hygiene.png"),
     },
     {
       nama: "Pemberian Label High Alert Untuk Obat Sitostatika",
       image:
-        "/assets/pmkp/indikator/pemberian-label-high-alert-untuk-obat-sitostatika.png",
+        asset("/assets/pmkp/indikator/pemberian-label-high-alert-untuk-obat-sitostatika.png"),
     },
     {
       nama: "Kepatuhan Identifikasi Pasien",
-      image: "/assets/pmkp/indikator/kepatuhan-identifikasi-pasien.png",
+      image: asset("/assets/pmkp/indikator/kepatuhan-identifikasi-pasien.png"),
     },
     {
       nama: "Kepatuhan Upaya Pencegahan Risiko Cedera Akibat Pasien Jatuh pada Pasien Rawat Inap",
       image:
-        "/assets/pmkp/indikator/kepatuhan-upaya-pencegahan-risiko-cedera-akibat-pasien-jatuh-pada-pasien-rawat-inap.png",
+        asset("/assets/pmkp/indikator/kepatuhan-upaya-pencegahan-risiko-cedera-akibat-pasien-jatuh-pada-pasien-rawat-inap.png"),
     },
     {
       nama: "Kelengkapan Hand Over Pasien",
-      image: "/assets/pmkp/indikator/kelengkapan-hand-over-pasien.png",
+      image: asset("/assets/pmkp/indikator/kelengkapan-hand-over-pasien.png"),
     },
     {
       nama: "Kepatuhan Pemberian Site Marking",
-      image: "/assets/pmkp/indikator/kepatuhan-pemberian-site-marking.png",
+      image: asset("/assets/pmkp/indikator/kepatuhan-pemberian-site-marking.png"),
     },
     {
       nama: "Risiko terjadinya Extravasasi",
-      image: "/assets/pmkp/indikator/risiko-terjadinya-extravasasi.png",
+      image: asset("/assets/pmkp/indikator/risiko-terjadinya-extravasasi.png"),
     },
     {
       nama: "Kepatuhan Protokol Pelaksanaan Kemoterapi",
       image:
-        "/assets/pmkp/indikator/kepatuhan-protokol-pelaksanaan-kemoterapi.png",
+        asset("/assets/pmkp/indikator/kepatuhan-protokol-pelaksanaan-kemoterapi.png"),
     },
     {
       nama: "Ketepatan Kalibrasi Alat Kesehatan",
-      image: "/assets/pmkp/indikator/ketepatan-kalibrasi-alat-kesehatan.png",
+      image: asset("/assets/pmkp/indikator/ketepatan-kalibrasi-alat-kesehatan.png"),
     },
     {
       nama: "Ketepatan waktu penanganan kerusakan hardware & jaringan ≤ 1 jam",
       image:
-        "/assets/pmkp/indikator/ketepatan-waktu-penanganan-kerusakan-hardware-jaringan.png",
+        asset("/assets/pmkp/indikator/ketepatan-waktu-penanganan-kerusakan-hardware-jaringan.png"),
     },
     {
       nama: " Ketepatan Pengembalian BRM Lengkap ≤2 x 24 jam",
-      image: "/assets/pmkp/indikator/ketepatan-pengembalian-brm-lengkap.png",
+      image: asset("/assets/pmkp/indikator/ketepatan-pengembalian-brm-lengkap.png"),
     },
   ],
 };
@@ -65,7 +66,7 @@ export default function Indikator() {
   const { indikator } = router.query;
   const [choosenIndikator, setChoosenIndikator] = useState({
     nama: "kepatuhan hand hygiene",
-    image: "/assets/pmkp/indikator/prioritas-hand-hygiene.png",
+    image: asset("/assets/pmkp/indikator/prioritas-hand-hygiene.png"),
   });
 
   return (

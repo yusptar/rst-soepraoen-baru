@@ -6,11 +6,12 @@ import {
   LuBrain,
   LuMicroscope,
 } from "react-icons/lu";
+import { asset } from "../../helpers/asset";
 
 export const listLayananUnggulan = [
   {
     id: 1,
-    image: "/assets/mcu.jpg",
+    image: asset("/assets/mcu.jpg"),
     description: "Medical Checkup",
     subtitle: "Pemeriksaan kesehatan menyeluruh untuk deteksi dini",
     icon: <LuStethoscope />,
@@ -19,7 +20,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 2,
-    image: "/assets/unggulan/eswl.jpg",
+    image: asset("/assets/unggulan/eswl.jpg"),
     description: "Urologi Terpadu",
     subtitle: "Penanganan batu ginjal & gangguan saluran kemih",
     icon: <LuActivity />,
@@ -28,7 +29,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 3,
-    image: "/assets/unggulan/hemodialisa.jpg",
+    image: asset("/assets/unggulan/hemodialisa.jpg"),
     description: "Unit Hemodialisa",
     subtitle: "Layanan cuci darah dengan teknologi modern",
     icon: <LuActivity />,
@@ -37,7 +38,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 4,
-    image: "/assets/kemoterapi.jpg",
+    image: asset("/assets/kemoterapi.jpg"),
     description: "Onkologi Terpadu",
     subtitle: "Penanganan kanker secara komprehensif & terpadu",
     icon: <LuMicroscope />,
@@ -46,7 +47,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 5,
-    image: "/assets/banner-3.jpg",
+    image: asset("/assets/banner-3.jpg"),
     description: "CT Scan",
     subtitle: "Pencitraan detail untuk diagnosis yang akurat",
     icon: <LuScanLine />,
@@ -55,7 +56,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 6,
-    image: "/assets/unggulan/cath-lab.jpg",
+    image: asset("/assets/unggulan/cath-lab.jpg"),
     description: "Jantung Terpadu",
     subtitle: "Layanan kateterisasi & tindakan jantung modern",
     icon: <LuHeartPulse />,
@@ -64,7 +65,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 10,
-    image: "/assets/unggulan/keswa-thumb.jpg",
+    image: asset("/assets/unggulan/keswa-thumb.jpg"),
     description: "Test Kesehatan Jiwa & Psikotest",
     subtitle: "Pemeriksaan psikologis untuk kebutuhan klinis & umum",
     icon: <LuBrain />,
@@ -73,7 +74,7 @@ export const listLayananUnggulan = [
   },
   {
     id: 11,
-    image: "/assets/unggulan/endoskopi-new.jpeg",
+    image: asset("/assets/unggulan/endoskopi-new.jpeg"),
     description: "Endoskopi",
     subtitle: "Pemeriksaan organ dalam tanpa tindakan bedah besar",
     icon: <LuScanLine />,

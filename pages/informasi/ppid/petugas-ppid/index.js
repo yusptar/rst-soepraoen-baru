@@ -10,6 +10,7 @@ import {
   LuBadgeCheck,
   LuBuilding2,
 } from "react-icons/lu";
+import { asset } from "../../../../helpers/asset";
 
 const listPetugasPpid = [
   {
@@ -136,9 +137,9 @@ const listPetugasPpid = [
 ];
 
 const listDireksiPPID = [ 
-  { nama: "Letkol Ckm Pujianto, A.Md Ak., S.K.M", jabatan: "Bidang Pengelolaan Data dan Klarifikasi Informasi", foto: "/assets/ppid/letkol-puji.png", }, 
-  { nama: "Letkol CKm (K) Simpen Widayati, S.Kep Ners, M.Kes", jabatan: "Bidang Pelayanan Informasi dan Dokumentasi", foto: "/assets/direksi/letkol-simpen.jpeg", }, 
-  { nama: "Lettu Ckm Anton Prasetyo H, S.Kep", jabatan: "Bidang Fasilitas Sengketa Informasi", foto: "/assets/ppid/kaur-anton.png", }, 
+  { nama: "Letkol Ckm Pujianto, A.Md Ak., S.K.M", jabatan: "Bidang Pengelolaan Data dan Klarifikasi Informasi", foto: asset("/assets/ppid/letkol-puji.png"), }, 
+  { nama: "Letkol CKm (K) Simpen Widayati, S.Kep Ners, M.Kes", jabatan: "Bidang Pelayanan Informasi dan Dokumentasi", foto: asset("/assets/direksi/letkol-simpen.jpeg"), }, 
+  { nama: "Lettu Ckm Anton Prasetyo H, S.Kep", jabatan: "Bidang Fasilitas Sengketa Informasi", foto: asset("/assets/ppid/kaur-anton.png"), }, 
 ];
 
 export default function PetugasPPID() {
@@ -277,7 +278,7 @@ export default function PetugasPPID() {
 
             <div className="flex justify-center">
               <Image
-                src="/assets/struktur-ppid-new.png"
+                src={asset("/assets/struktur-ppid-new.png")}
                 alt="struktur ppid"
                 width={1200}
                 height={1000}

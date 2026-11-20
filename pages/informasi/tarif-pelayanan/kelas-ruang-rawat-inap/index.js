@@ -3,13 +3,14 @@ import BannerRS from "../../../../components/Banner/BannerRS";
 import NavbarTarifPelayanan from "../../../../components/Navbar/NavbarTarifPelayanan";
 import Image from "next/image";
 import { rupiah } from "../../../../helpers/CurrencyFormatter";
+import { asset } from "../../../../helpers/asset";
 
 const listKamar = [
   {
     nama: "Ruang SUPER VVIP",
     biaya: "2500000",
     bed: "2",
-    image: "/assets/super_vvip.jpg",
+    image: asset("/assets/super_vvip.jpg"),
     fasilitas: [
       "1 kamar 1 tempat tidur",
       // "Tempat tidur multifungsi",
@@ -38,7 +39,7 @@ const listKamar = [
     nama: "Ruang VVIP",
     biaya: "1200000",
     bed: "1",
-    image: "/assets/kamar/new-vvip.jpg",
+    image: asset("/assets/kamar/new-vvip.jpg"),
     fasilitas: [
       "1 kamar 1 tempat tidur",
       // "Tempat tidur multifungsi",
@@ -67,7 +68,7 @@ const listKamar = [
     nama: "Ruang VIP",
     biaya: "900000",
     bed: "1",
-    image: "/assets/kamar/new-vip.jpg",
+    image: asset("/assets/kamar/new-vip.jpg"),
     fasilitas: [
       "1 kamar 1 tempat tidur",
       // "Tempat tidur multifungsi",
@@ -94,7 +95,7 @@ const listKamar = [
     nama: "Ruang Kelas I",
     biaya: "480000",
     bed: "1 - 2",
-    image: "/assets/kamar/new-kelas-1.jpg",
+    image: asset("/assets/kamar/new-kelas-1.jpg"),
     fasilitas: [
       "1 kamar 1-2 tempat tidur",
       // "Tempat tidur multi fungsi",
@@ -117,7 +118,7 @@ const listKamar = [
     nama: "Ruang Kelas II",
     biaya: "400000",
     bed: "3 - 4",
-    image: "/assets/kamar/new-kelas-2.jpg",
+    image: asset("/assets/kamar/new-kelas-2.jpg"),
     fasilitas: [
       "1 kamar 3-4 tempat tidur",
       // "Tempat tidur pasien",
@@ -138,7 +139,7 @@ const listKamar = [
     nama: "Ruang Kelas III",
     biaya: "250000",
     bed: "6 - 8",
-    image: "/assets/kamar/new-kelas-3.jpeg",
+    image: asset("/assets/kamar/new-kelas-3.jpeg"),
     fasilitas: [
       "Zaal 6 s/d 8 TT",
       "Tempat tidur pasien",

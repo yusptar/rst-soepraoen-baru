@@ -2,16 +2,17 @@ import { React, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { HTTP } from "../../../../services/NetworkServices";
+import { asset } from "../../../../helpers/asset";
 
 const listGallery = [
   {
-    image: "/assets/unit/hemodialisa-1.jpg",
+    image: asset("/assets/unit/hemodialisa-1.jpg"),
   },
   {
-    image: "/assets/unit/hemodialisa-2.jpg",
+    image: asset("/assets/unit/hemodialisa-2.jpg"),
   },
   {
-    image: "/assets/unit/hemodialisa-3.jpg",
+    image: asset("/assets/unit/hemodialisa-3.jpg"),
   },
 ];
 
@@ -73,7 +74,7 @@ export default function CTScan() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/keswa-banner.jpg"}
+                src={asset("/assets/unggulan/keswa-banner.jpg")}
                 alt={"Test Kesehatan Jiwa & Psikotest"}
                 // fill={true}
                 priority={true}

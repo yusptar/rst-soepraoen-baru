@@ -8,6 +8,7 @@ dayjs.extend(relativeTime);
 dayjs.locale("id");
 import { HTTP } from "../../../../services/NetworkServices";
 import JadwalDokter from "../../../../components/Schedule/JadwalDokter";
+import { asset } from "../../../../helpers/asset";
 
 const listMesin = [
   {
@@ -29,13 +30,13 @@ const listMesin = [
 
 const listGallery = [
   {
-    image: "/assets/unit/hemodialisa-1.jpg",
+    image: asset("/assets/unit/hemodialisa-1.jpg"),
   },
   {
-    image: "/assets/unit/hemodialisa-2.jpg",
+    image: asset("/assets/unit/hemodialisa-2.jpg"),
   },
   {
-    image: "/assets/unit/hemodialisa-3.jpg",
+    image: asset("/assets/unit/hemodialisa-3.jpg"),
   },
 ];
 
@@ -76,7 +77,7 @@ export default function UnitHemodialisa() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unit/hemodialisa.png"}
+                src={asset("/assets/unit/hemodialisa.png")}
                 alt={"Unit Hemodialisa"}
                 // fill={true}
                 priority={true}
@@ -111,7 +112,7 @@ export default function UnitHemodialisa() {
           <div className="md:w-11/12 w-full my-5 md:flex gap-2">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer mt-5 md:mt-0">
               <Image
-                src={"/assets/unit/ruang-tunggu-hemodialisa.png"}
+                src={asset("/assets/unit/ruang-tunggu-hemodialisa.png")}
                 alt={"Unit Hemodialisa"}
                 // fill={true}
                 priority={true}
@@ -123,7 +124,7 @@ export default function UnitHemodialisa() {
             </div>
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer mt-5 md:mt-0">
               <Image
-                src={"/assets/unit/mesin-ro-hemodialisa.png"}
+                src={asset("/assets/unit/mesin-ro-hemodialisa.png")}
                 alt={"Unit Hemodialisa"}
                 // fill={true}
                 priority={true}

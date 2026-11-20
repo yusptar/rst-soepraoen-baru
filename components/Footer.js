@@ -2,6 +2,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "../helpers/asset";
 
 const tentang = [
   {
@@ -74,7 +75,7 @@ export default function Footer() {
             <div className="md:mr-5 mr-2 w-1/5">
               <div className="xl:w-1/2 flex md:w-3/4">
                 <Image
-                  src="/assets/logo/logo-rs-baru.jpg"
+                  src={asset("/assets/logo/logo-rs-baru.jpg")}
                   alt="logo"
                   width="0"
                   height="0"
@@ -137,7 +138,7 @@ export default function Footer() {
                   height="0"
                   sizes="100vw"
                   className="w-full h-auto"
-                  src={"/assets/playstore.png"}
+                  src={asset("/assets/playstore.png")}
                   alt={"logo playstore"}
                 />
               </div>
@@ -327,7 +328,7 @@ export default function Footer() {
                   height="0"
                   sizes="100vw"
                   className="w-full h-auto"
-                  src={"/assets/ikm/link-skm-tw-4-2026.jpeg"}
+                  src={asset("/assets/ikm/link-skm-tw-4-2026.jpeg")}
                   alt={"logo playstore"}
                 />
               </Link>
@@ -338,7 +339,7 @@ export default function Footer() {
             <div className="w-full p-0 flex flex-col items-center">
               <div className="w-1/3">
                 <Image
-                  src="/assets/logo-revisi.png"
+                  src={asset("/assets/logo-revisi.png")}
                   alt="logo"
                   // width={150}
                   // height={0}
@@ -404,7 +405,7 @@ export default function Footer() {
                   height="0"
                   sizes="100vw"
                   className="w-full h-auto"
-                  src={"/assets/playstore.png"}
+                  src={asset("/assets/playstore.png")}
                   alt={"logo playstore"}
                 />
               </div> */}
@@ -497,7 +498,7 @@ export default function Footer() {
                     height="0"
                     sizes="100vw"
                     className="w-full h-auto"
-                    src={"/assets/ikm/link-skm-tw-4-2026.jpeg"}
+                    src={asset("/assets/ikm/link-skm-tw-4-2026.jpeg")}
                     alt={"logo playstore"}
                   />
                 </Link>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import BannerRS from "../../../../components/Banner/BannerRS";
 import Image from "next/image";
 import NavbarPMKP from "../../../../components/Navbar/NavbarPMKP";
+import { asset } from "../../../../helpers/asset";
 
 export default function StrukturOrganisasiPMKP() {
   return (
@@ -45,7 +46,7 @@ export default function StrukturOrganisasiPMKP() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[8/4] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/pmkp/struktur-komite-mutu.png"}
+                src={asset("/assets/pmkp/struktur-komite-mutu.png")}
                 alt={"Struktur Komite Mutu"}
                 width="1000"
                 height="0"

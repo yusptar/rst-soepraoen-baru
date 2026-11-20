@@ -13,6 +13,7 @@ import {
   FcSupport,
   FcBiotech,
 } from "react-icons/fc";
+import { asset } from "../../../../helpers/asset";
 
 // Kategori layanan Homecare — sesuaikan nomor WhatsApp jika ada perubahan kontak person
 const HOMECARE_CATEGORIES = [
@@ -170,7 +171,7 @@ export default function HomeCare() {
 
           <div className="justify-center">
             <Image
-              src="/assets/homecare-banner.png"
+              src={asset("/assets/homecare-banner.png")}
               alt="homecare"
               width={400}
               height={500}
@@ -190,7 +191,7 @@ export default function HomeCare() {
                   </h5>
                   <div className="flex justify-center">
                     <Image
-                      src="/assets/logo-homecare.png"
+                      src={asset("/assets/logo-homecare.png")}
                       alt="homecare"
                       width={300}
                       height={500}

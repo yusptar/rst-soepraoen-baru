@@ -2,6 +2,7 @@ import { React, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { HTTP } from "../../../../services/NetworkServices";
+import { asset } from "../../../../helpers/asset";
 
 export default function OnkologiGinekologi() {
   return (
@@ -29,7 +30,7 @@ export default function OnkologiGinekologi() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/onkologi-ginekologi-banner.jpg"}
+                src={asset("/assets/unggulan/onkologi-ginekologi-banner.jpg")}
                 alt={"Onkologi Ginekologi"}
                 // fill={true}
                 priority={true}

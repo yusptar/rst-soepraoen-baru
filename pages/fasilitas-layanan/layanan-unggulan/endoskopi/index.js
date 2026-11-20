@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "../../../../helpers/asset";
 
 const listJenisEndoskopi = [
   {
@@ -83,7 +84,7 @@ export default function Endoskopi() {
           <div className="md:w-11/12 w-full my-5">
             <div className="w-full aspect-[6/3] relative rounded-md cursor-pointer">
               <Image
-                src={"/assets/unggulan/endoskopi-banner.jpg"}
+                src={asset("/assets/unggulan/endoskopi-banner.jpg")}
                 alt={"Endoskopi"}
                 // fill={true}
                 priority={true}

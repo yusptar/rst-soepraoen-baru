@@ -1,3 +1,4 @@
+import { asset } from "../../helpers/asset";
 // Sumber: Rev. Struktur Orgas BLU Rumkit Tk. II dr. Soepraoen - November 2026
 // kategori: PIMPINAN | KOMITE | KABAG | PEMBANTU | DEPARTEMEN | INSTALASI | PELAKSANA | ANGGOTA (tampil di modal atasannya)
 // status 1 = punya bawahan (tombol "Lihat Selengkapnya" membuka modal berisi item dengan parent = level-nya)
@@ -8,7 +9,7 @@ export const listDireksi = [
   {
     nama: "Kolonel Ckm dr. Handy Hernandy Yuliawan, Sp.M",
     jabatan: "Kepala Rumah Sakit",
-    foto: "/assets/direksi/karumkit-handy.jpeg",
+    foto: asset("/assets/direksi/karumkit-handy.jpeg"),
     level: "KARUMKIT",
     parent: "-",
     status: 0,
@@ -27,7 +28,7 @@ export const listDireksi = [
   {
     nama: "Kolonel Ckm dr. Dini Henriyanto, Sp.PD",
     jabatan: "KE KOMMED",
-    foto: "/assets/orgas-blu/Letkol Ckm dr. Dini Hendriyanto Sp.PD.png",
+    foto: asset("/assets/orgas-blu/Letkol Ckm dr. Dini Hendriyanto Sp.PD.png"),
     level: "KE KOMMED",
     parent: "KARUMKIT",
     status: 0,
@@ -45,7 +46,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Eri Wiyasti, S.K.M., M.Kes",
     jabatan: "KE KOM NAKES LAIN",
-    foto: "/assets/orgas-blu/Letkol Ckm Eri Wiyasti.jpg",
+    foto: asset("/assets/orgas-blu/Letkol Ckm Eri Wiyasti.jpg"),
     level: "KE KOM NAKES LAIN",
     parent: "KARUMKIT",
     status: 0,
@@ -63,7 +64,7 @@ export const listDireksi = [
   {
     nama: "Mayor Ckm Dr. Elvianto W, S.Pd, S.Kep.Ners, M.MKes",
     jabatan: "KOMKORDIK",
-    foto: "/assets/orgas-blu/Mayor Ckm Elvianto.jpg",
+    foto: asset("/assets/orgas-blu/Mayor Ckm Elvianto.jpg"),
     level: "KOMKORDIK",
     parent: "KARUMKIT",
     status: 0,
@@ -72,7 +73,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Eri Wiyasti, S.K.M., M.Kes",
     jabatan: "KA SPI",
-    foto: "/assets/orgas-blu/Letkol Ckm Eri Wiyasti.jpg",
+    foto: asset("/assets/orgas-blu/Letkol Ckm Eri Wiyasti.jpg"),
     level: "KA SPI",
     parent: "KARUMKIT",
     status: 0,
@@ -91,7 +92,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Dr. dr. Tiwik E, Sp.PK., M.Kes",
     jabatan: "KABAG YAN",
-    foto: "/assets/orgas-blu/Letkol Ckm dr Tiwik.jpg",
+    foto: asset("/assets/orgas-blu/Letkol Ckm dr Tiwik.jpg"),
     level: "KABAG YAN",
     parent: "KARUMKIT",
     status: 1,
@@ -110,7 +111,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Erick Rusli",
     jabatan: "KASI JANGMED",
-    foto: "/assets/orgas-blu/dr Erick.jpg",
+    foto: asset("/assets/orgas-blu/dr Erick.jpg"),
     level: "KASI JANGMED",
     parent: "KABAG YAN",
     status: 0,
@@ -119,7 +120,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Sari Tri Buntari, S.Si., Apt",
     jabatan: "KASI JANGUM",
-    foto: "/assets/orgas-blu/Mayor Ckm Sari tri Buntari.jpg",
+    foto: asset("/assets/orgas-blu/Mayor Ckm Sari tri Buntari.jpg"),
     level: "KASI JANGUM",
     parent: "KABAG YAN",
     status: 0,
@@ -129,7 +130,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Nurul Hidayanti",
     jabatan: "KABAG REN DAN KEU",
-    foto: "/assets/orgas-blu/Letkol Ckm Nurul Hidayanti.jpg",
+    foto: asset("/assets/orgas-blu/Letkol Ckm Nurul Hidayanti.jpg"),
     level: "KABAG REN DAN KEU",
     parent: "KARUMKIT",
     status: 1,
@@ -139,7 +140,7 @@ export const listDireksi = [
   {
     nama: "Mayor Ckm Andri Irwanto",
     jabatan: "KASIRENPROGGAR",
-    foto: "/assets/orgas-blu/Mayor Ckm Andri Irwanto.jpg",
+    foto: asset("/assets/orgas-blu/Mayor Ckm Andri Irwanto.jpg"),
     level: "KASIRENPROGGAR",
     parent: "KABAG REN DAN KEU",
     status: 0,
@@ -186,7 +187,7 @@ export const listDireksi = [
   {
     nama: "Kapten Ckm Sugeng Haryanto",
     jabatan: "KAUR SIMAK",
-    foto: "/assets/orgas-blu/Kapten Sugeng Haryanto crop.png",
+    foto: asset("/assets/orgas-blu/Kapten Sugeng Haryanto crop.png"),
     level: "KAUR SIMAK",
     parent: "KABAG LOG",
     status: 0,
@@ -196,7 +197,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Simpen W, S.Kep Ners., M.Kes",
     jabatan: "KA UKPBJ",
-    foto: "/assets/orgas-blu/letkol-simpen.jpeg",
+    foto: asset("/assets/orgas-blu/letkol-simpen.jpeg"),
     level: "KA UKPBJ",
     parent: "KARUMKIT",
     status: 1,
@@ -206,7 +207,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm (K) Sari Tri Buntari, S.Si., Apt",
     jabatan: "PP JANGUM",
-    foto: "/assets/orgas-blu/Mayor Ckm Sari tri Buntari.jpg",
+    foto: asset("/assets/orgas-blu/Mayor Ckm Sari tri Buntari.jpg"),
     level: "PP JANGUM",
     parent: "KA UKPBJ",
     status: 0,
@@ -215,7 +216,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Erick Rusli",
     jabatan: "PP JANGMED",
-    foto: "/assets/orgas-blu/dr Erick.jpg",
+    foto: asset("/assets/orgas-blu/dr Erick.jpg"),
     level: "PP JANGMED",
     parent: "KA UKPBJ",
     status: 0,
@@ -263,7 +264,7 @@ export const listDireksi = [
   {
     nama: "Kapten Ckm Sugeng Haryanto",
     jabatan: "URPAM",
-    foto: "/assets/orgas-blu/Kapten Sugeng Haryanto crop.png",
+    foto: asset("/assets/orgas-blu/Kapten Sugeng Haryanto crop.png"),
     level: "URPAM",
     parent: "KASITUUD",
     status: 0,
@@ -272,7 +273,7 @@ export const listDireksi = [
   {
     nama: "Kapten Ckm Nur Akhmad",
     jabatan: "URPERS",
-    foto: "/assets/orgas-blu/kapten ckmNur Akhmad.jpg",
+    foto: asset("/assets/orgas-blu/kapten ckmNur Akhmad.jpg"),
     level: "URPERS",
     parent: "KASITUUD",
     status: 0,
@@ -378,7 +379,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Yusuf Arifin, Sp.JP",
     jabatan: "KASUBDEP JANTUNG",
-    foto: "/assets/orgas-blu/dr Yusuf.JPG",
+    foto: asset("/assets/orgas-blu/dr Yusuf.JPG"),
     level: "KASUBDEP JANTUNG",
     parent: "KADEP P.DALAM, JANTUNG DAN PARU",
     status: 0,
@@ -435,7 +436,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm dr. Bowo Hery P, Sp.S., M.BIOMED",
     jabatan: "KADEP P.SARAF DAN JIWA",
-    foto: "/assets/orgas-blu/Mayor Ckm dr Bowo.jpg",
+    foto: asset("/assets/orgas-blu/Mayor Ckm dr Bowo.jpg"),
     level: "KADEP P.SARAF DAN JIWA",
     parent: "KARUMKIT",
     status: 1,
@@ -504,7 +505,7 @@ export const listDireksi = [
   {
     nama: "Kapten Ckm Agus Sasiono",
     jabatan: "KASUBWATLAN B",
-    foto: "/assets/orgas-blu/Kapten Ckm Agus Sasiono.jpg",
+    foto: asset("/assets/orgas-blu/Kapten Ckm Agus Sasiono.jpg"),
     level: "KASUBWATLAN B",
     parent: "KAINSTALWATLAN",
     status: 0,
@@ -514,7 +515,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm Pujianto, A.Md AK., S.K.M",
     jabatan: "KAINSTALWATNAP",
-    foto: "/assets/orgas-blu/Letkol Ckm Pujianto.jpg",
+    foto: asset("/assets/orgas-blu/Letkol Ckm Pujianto.jpg"),
     level: "KAINSTALWATNAP",
     parent: "KARUMKIT",
     status: 1,
@@ -589,7 +590,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Widiati Rahayu, Sp.P., FAPSR",
     jabatan: "ENDOSCOPY",
-    foto: "/assets/orgas-blu/dr-widiati-rahayu.jpeg",
+    foto: asset("/assets/orgas-blu/dr-widiati-rahayu.jpeg"),
     level: "ENDOSCOPY",
     parent: "KAINSTALKABED",
     status: 0,
@@ -599,7 +600,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Gatot S, Sp.KFR",
     jabatan: "KAINSTAL REHABMED",
-    foto: "/assets/orgas-blu/dr. Gatot.jpg",
+    foto: asset("/assets/orgas-blu/dr. Gatot.jpg"),
     level: "KAINSTAL REHABMED",
     parent: "KARUMKIT",
     status: 1,
@@ -629,7 +630,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Satwika Budi P, Sp.Rad",
     jabatan: "KASUB RADIOLOGI",
-    foto: "/assets/orgas-blu/dr Pradhana.jpg",
+    foto: asset("/assets/orgas-blu/dr Pradhana.jpg"),
     level: "KASUB RADIOLOGI",
     parent: "KAINSTALJANGDIAG",
     status: 0,
@@ -647,7 +648,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Neviana Fitri L, Sp.PA",
     jabatan: "KASUB PATOLOGI ANATOMI",
-    foto: "/assets/orgas-blu/dr Neviana.JPG",
+    foto: asset("/assets/orgas-blu/dr Neviana.JPG"),
     level: "KASUB PATOLOGI ANATOMI",
     parent: "KAINSTALJANGDIAG",
     status: 0,
@@ -657,7 +658,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm Gogok Harianto, Apt",
     jabatan: "KAINSTALFARMASI",
-    foto: "/assets/orgas-blu/Lwtkol Ckm Gogok.jpg",
+    foto: asset("/assets/orgas-blu/Lwtkol Ckm Gogok.jpg"),
     level: "KAINSTALFARMASI",
     parent: "KARUMKIT",
     status: 1,
@@ -800,7 +801,7 @@ export const listDireksi = [
   {
     nama: "dr. Agustinus Gatot D, Sp.Rad.Onk",
     jabatan: "KA ONKOTER",
-    foto: "/assets/orgas-blu/dr agustinus gatot.jpeg",
+    foto: asset("/assets/orgas-blu/dr agustinus gatot.jpeg"),
     level: "KA ONKOTER",
     parent: "KARUMKIT",
     status: 1,
@@ -810,7 +811,7 @@ export const listDireksi = [
   {
     nama: "PNS IV/a dr. Margaretha Lupi P",
     jabatan: "KA UNIT HD",
-    foto: "/assets/orgas-blu/dr. Margaretha.jpg",
+    foto: asset("/assets/orgas-blu/dr. Margaretha.jpg"),
     level: "KA UNIT HD",
     parent: "KA ONKOTER",
     status: 0,
@@ -819,7 +820,7 @@ export const listDireksi = [
   {
     nama: "Letkol Ckm dr. Bowo Hery P, Sp.S., M.BIOMED",
     jabatan: "KAINSTAL PAVILIUN",
-    foto: "/assets/orgas-blu/Mayor Ckm dr Bowo.jpg",
+    foto: asset("/assets/orgas-blu/Mayor Ckm dr Bowo.jpg"),
     level: "KAINSTAL PAVILIUN",
     parent: "KA ONKOTER",
     status: 0,

@@ -10,6 +10,7 @@ import {
 
 import BannerRS from "../../../../components/Banner/BannerRS";
 import NavbarTentang from "../../../../components/Navbar/NavbarTentang";
+import { asset } from "../../../../helpers/asset";
 
 function SejarahDrSoepraoen() {
   return (
@@ -40,7 +41,7 @@ function SejarahDrSoepraoen() {
                 <div className="relative flex justify-center">
                   <div className="relative overflow-hidden rounded-[2rem] bg-slate-100 border border-slate-200 shadow-xl w-full max-w-[420px]">
                     <Image
-                      src={"/assets/new-dr-soepraoen.jpg"}
+                      src={asset("/assets/new-dr-soepraoen.jpg")}
                       alt={"Mayor dr.Soepraoen"}
                       width={600}
                       height={850}

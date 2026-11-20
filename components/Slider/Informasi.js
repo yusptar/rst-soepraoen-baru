@@ -12,6 +12,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import dynamic from "next/dynamic";
 import { listLayananUnggulan } from "../List/listLayananUnggulan";
+import { asset } from "../../helpers/asset";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
@@ -20,7 +21,7 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 const contents = [
   {
     id: 1,
-    image: "/assets/mcu.png",
+    image: asset("/assets/mcu.png"),
     description: "Medical Checkup",
     subtitle: "Pemeriksaan kesehatan menyeluruh",
     alt: "Medical Checkup",
@@ -28,7 +29,7 @@ const contents = [
   },
   {
     id: 2,
-    image: "/assets/unggulan/eswl.jpg",
+    image: asset("/assets/unggulan/eswl.jpg"),
     description: "Urologi Terpadu",
     subtitle: "Layanan batu ginjal & saluran kemih",
     alt: "Urologi Terpadu",
@@ -36,7 +37,7 @@ const contents = [
   },
   {
     id: 3,
-    image: "/assets/hemodialisa.png",
+    image: asset("/assets/hemodialisa.png"),
     description: "Unit Hemodialisa",
     subtitle: "Terapi cuci darah dengan alat modern",
     alt: "Unit Hemodialisa",
@@ -44,7 +45,7 @@ const contents = [
   },
   {
     id: 4,
-    image: "/assets/kemoterapi.jpg",
+    image: asset("/assets/kemoterapi.jpg"),
     description: "Unit Kemoterapi",
     subtitle: "Penanganan kanker secara terpadu",
     alt: "Unit Kemoterapi",
@@ -52,7 +53,7 @@ const contents = [
   },
   {
     id: 5,
-    image: "/assets/unggulan/ct-scan.jpg",
+    image: asset("/assets/unggulan/ct-scan.jpg"),
     description: "CT Scan",
     subtitle: "Pencitraan detail untuk diagnosis akurat",
     alt: "CT Scan",
@@ -60,7 +61,7 @@ const contents = [
   },
   {
     id: 6,
-    image: "/assets/unggulan/cath-lab.jpg",
+    image: asset("/assets/unggulan/cath-lab.jpg"),
     description: "Jantung Terpadu",
     subtitle: "Layanan kateterisasi & tindakan jantung",
     alt: "Jantung Terpadu",

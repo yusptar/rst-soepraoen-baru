@@ -1,3 +1,4 @@
+import { asset } from "../../helpers/asset";
 export const listSurvei = [
   {
     tahun: "2026",
@@ -10,7 +11,7 @@ export const listSurvei = [
           tahun: "2026",
           pelaksanaan: "Januari - Maret",
           jumlahResponden: "362",
-          image:"/assets/ipak/2026/IPAK-TW-I.jpeg",
+          image:asset("/assets/ipak/2026/IPAK-TW-I.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -141,7 +142,7 @@ export const listSurvei = [
           tahun: "2026",
           pelaksanaan: "April  - Juni",
           jumlahResponden: "362",
-          image:"/assets/ipak/2026/IPAK-TW-II.jpeg",
+          image:asset("/assets/ipak/2026/IPAK-TW-II.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -551,7 +552,7 @@ export const listSurvei = [
           tahun: "2025",
           pelaksanaan: "Januari - Maret",
           jumlahResponden: "362",
-          image:"/assets/ipak/2025/IPAK-TW-I.jpeg",
+          image:asset("/assets/ipak/2025/IPAK-TW-I.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -682,7 +683,7 @@ export const listSurvei = [
           tahun: "2025",
           pelaksanaan: "April  - Juni",
           jumlahResponden: "362",
-          image:"/assets/ipak/2025/IPAK-TW-II.jpeg",
+          image:asset("/assets/ipak/2025/IPAK-TW-II.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -813,7 +814,7 @@ export const listSurvei = [
           tahun: "2025",
           pelaksanaan: "Juli - September",
           jumlahResponden: "362",
-          image:"/assets/ipak/2025/IPAK-TW-III.jpeg",
+          image:asset("/assets/ipak/2025/IPAK-TW-III.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -944,7 +945,7 @@ export const listSurvei = [
           tahun: "2025",
           pelaksanaan: "Oktober - Desember",
           jumlahResponden: "388",
-          image:"/assets/ipak/2025/IPAK-TW-IV.jpeg",
+          image:asset("/assets/ipak/2025/IPAK-TW-IV.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -1092,7 +1093,7 @@ export const listSurvei = [
           tahun: "2024",
           pelaksanaan: "Januari - Maret",
           jumlahResponden: "362",
-          image:"/assets/ipak/2024/IPAK-TW-I.jpeg",
+          image:asset("/assets/ipak/2024/IPAK-TW-I.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -1223,7 +1224,7 @@ export const listSurvei = [
           tahun: "2024",
           pelaksanaan: "April  - Juni",
           jumlahResponden: "362",
-          image:"/assets/ipak/2024/IPAK-TW-II.jpeg",
+          image:asset("/assets/ipak/2024/IPAK-TW-II.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -1354,7 +1355,7 @@ export const listSurvei = [
           tahun: "2024",
           pelaksanaan: "Juli - September",
           jumlahResponden: "362",
-          image:"/assets/ipak/2024/IPAK-TW-III.jpeg",
+          image:asset("/assets/ipak/2024/IPAK-TW-III.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {
@@ -1485,7 +1486,7 @@ export const listSurvei = [
           tahun: "2024",
           pelaksanaan: "Oktober - Desember",
           jumlahResponden: "362",
-          image:"/assets/ipak/2024/IPAK-TW-IV.jpeg",
+          image:asset("/assets/ipak/2024/IPAK-TW-IV.jpeg"),
           // jumlahResponden: "399",
           // jenisKelamin: [
           //   {

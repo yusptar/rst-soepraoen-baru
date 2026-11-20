@@ -9,6 +9,7 @@ import {
   FaHospital,
 } from "react-icons/fa";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
+import { asset } from "../../../helpers/asset";
 
 export default function Mitra() {
   return (
@@ -86,7 +87,7 @@ export default function Mitra() {
                   {/* RIGHT */}
                   <div className="relative h-[260px] md:h-[420px]">
                     <Image
-                      src="/assets/bg-rssoepraoen-senja.png"
+                      src={asset("/assets/bg-rssoepraoen-senja.png")}
                       alt="Mitra Rumah Sakit"
                       fill
                       className="object-cover"

@@ -5,8 +5,9 @@ import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import { WEBSERVICE, IMAGE_URL } from "../../../services/NetworkServices";
 import { formatDate } from "../../../helpers/DateTimeFormatters";
+import { asset } from "../../../helpers/asset";
 
-const dummyImage = "/assets/3.jpg";
+const dummyImage = asset("/assets/3.jpg");
 
 export default function DetailBerita() {
   const router = useRouter();

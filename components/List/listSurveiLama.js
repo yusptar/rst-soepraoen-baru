@@ -1,3 +1,4 @@
+import { asset } from "../../helpers/asset";
 export const listSurvei = [
     // {
     //   tahun: "2024",
@@ -1174,7 +1175,7 @@ export const listSurvei = [
             jumlahPertanyaan: "9",
             jumlahSaran: "0",
             pelaksanaan: "1 April 2023 - 30 Juni 2023",
-            image:"/assets/ikm/tw-2-2023.jpeg",
+            image:asset("/assets/ikm/tw-2-2023.jpeg"),
             jumlahResponden: "159",
             jenisKelamin: [
               {
@@ -1249,7 +1250,7 @@ export const listSurvei = [
             jumlahPertanyaan: "9",
             jumlahSaran: "0",
             pelaksanaan: "1 Juli 2023 - 30 September 2023",
-            image:"/assets/ikm/tw-3-2023.jpeg",
+            image:asset("/assets/ikm/tw-3-2023.jpeg"),
             jumlahResponden: "169",
             jenisKelamin: [
               {
@@ -1324,7 +1325,7 @@ export const listSurvei = [
             jumlahPertanyaan: "9",
             jumlahSaran: "0",
             pelaksanaan: "1 Oktober 2023 - 31 Desember 2023",
-            image:"/assets/ikm/tw-4-2023.jpeg",
+            image:asset("/assets/ikm/tw-4-2023.jpeg"),
             jumlahResponden: "169",
             jenisKelamin: [
               {

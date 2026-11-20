@@ -6,6 +6,7 @@ import { HTTP, WEBSERVICE, IMAGE_URL } from "../../../services/NetworkServices";
 import CardLayanan from "../../../components/Card/CardLayanan";
 import JadwalDokter from "../../../components/Schedule/JadwalDokter";
 import { listPoliklinik } from "../../../components/List/listPoliklinik";
+import { asset } from "../../../helpers/asset";
 
 const listProsedur = [
   {
@@ -170,7 +171,7 @@ export default function Poliklinik() {
               banner={
                 dataPoliklinik.banner
                   ? IMAGE_URL + dataPoliklinik.banner
-                  : "/assets/poli/penyakit-dalam-cover.png"
+                  : asset("/assets/poli/penyakit-dalam-cover.png")
               }
               nama_poli={dataPoliklinik.nm_poli}
             />
