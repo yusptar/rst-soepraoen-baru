@@ -49,18 +49,18 @@ const contents = [
     alt: "image2",
     link: "/",
   },
-  {
-    id: 16,
-    image: asset("/assets/banner/kakes-karumkit.jpeg"),
-    alt: "Kakes - Karumkit",
-    link: "/",
-  },
-  {
-    id: 17,
-    image: asset("/assets/banner/wtrb.png"),
-    alt: "wtrb",
-    link: "/",
-  },
+  // {
+  //   id: 16,
+  //   image: asset("/assets/banner/kakes-karumkit.jpeg"),
+  //   alt: "Kakes - Karumkit",
+  //   link: "/",
+  // },
+  // {
+  //   id: 17,
+  //   image: asset("/assets/banner/wtrb.png"),
+  //   alt: "wtrb",
+  //   link: "/",
+  // },
   {
     id: 17,
     image: asset("/assets/banner/pengesahan-karumkit.jpeg"),
@@ -349,7 +349,7 @@ const Responsive = {
 export default function Slider() {
   const [selectedBanner, setSelectedBanner] = useState({
     id: 1,
-    image: asset("/assets/BANNER WTRB NEW.png"),
+    image: asset("/assets/banner/wtrb-2.png"),
     alt: "image2",
     link: "/",
   });

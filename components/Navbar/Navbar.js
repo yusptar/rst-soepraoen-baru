@@ -89,7 +89,7 @@ const Navbar = () => {
             <div className="flex text-xs font-normal text-black w-full justify-around">
               <div className="md:p-0 h-full flex flex-col justify-center items-center align-middle">
                 <Image
-                  src={asset("/assets/logo/logo-panjang-rst.jpg")}
+                  src={asset("/assets/logo/logo-rst-dowo.png")}
                   alt="logo"
                   className="md:cursor-pointer pl-3 md:pl-0 w-full h-auto"
                   width="0"
