@@ -1,8 +1,6 @@
-"use client";
-
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import { links } from "./NavbarLinkList";
 
 /*
@@ -14,7 +12,7 @@ import { links } from "./NavbarLinkList";
 */
 
 const isMatch = (href, pathname) => {
-  if (!href || href === "#" || /^https?:/.test(href)) return false;
+  if (!href || !pathname || href === "#" || /^https?:/.test(href)) return false;
   if (href === "/") return pathname === "/";
   return pathname === href || pathname.startsWith(href + "/");
 };
@@ -48,7 +46,9 @@ function Chevron({ className = "" }) {
 }
 
 export default function Navlinks(props) {
-  const pathname = usePathname();
+  // Pages Router: asPath selalu string (usePathname bisa null saat prerender)
+  const router = useRouter();
+  const pathname = (router.asPath || "/").split(/[?#]/)[0];
   const [heading, setHeading] = React.useState("");
   const [subHeading, setSubHeading] = React.useState("");
 
