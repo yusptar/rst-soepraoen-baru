@@ -13,6 +13,7 @@ const csp = `
   img-src 'self' data: blob: https://images.unsplash.com https://robohash.org https://rssoepraoen.com https://www.rssoepraoen.com ${isDev ? "http://localhost:*" : ""};
   font-src 'self' data:;
   connect-src 'self' https://rssoepraoen.com https://www.rssoepraoen.com ${isDev ? "http://localhost:* ws://localhost:*" : ""};
+  frame-src 'self' https://www.google.com;
   frame-ancestors 'none';
   object-src 'none';
   base-uri 'self';
